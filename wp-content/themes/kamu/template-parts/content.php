@@ -12,27 +12,27 @@
 	<article <?php post_class( 'post-container' ); ?>>
 
 		<header class="entry-header">
-						
+
 			<?php
 			$page_title = get_field('page_title');
 			$h1_open_tag = '<h1 class="entry-title">';
 			$h1_close_tag = '</h1>';
-			
+
 			$page_header = get_field('page_header');
-			
+
 			if($page_header) {
-				
-				$header_bg_img = get_field('page_header_background'); 
-			
+
+				$header_bg_img = get_field('page_header_background');
+
 				?>
-			
+
 				<div class="top-level-page-header">
-				
+
 					<div class="page-header-bg" style="background-image: url(' <? echo $header_bg_img['url']; ?> ')">
 
 						<div class="container">
 
-							<? 
+							<?
 							echo $h1_open_tag;
 
 							if($page_title) {
@@ -40,24 +40,24 @@
 							}
 							else {
 								the_title();
-							} 
+							}
 							echo $h1_close_tag;
 							?>
 
 						</div>
 
 					</div>
-						
+
 				</div>
-			
+
 				<?
 			}
 			else {
-				
+
 				?>
-				
+
 				<div class="inner-page-header">
-							
+
 					<?
 
 					$image_above_page_title = get_field('image_above_page_title');
@@ -68,13 +68,13 @@
 					}
 
 					echo '<div class="container">' . $h1_open_tag;
-				
+
 					if(is_page('airdates')) {
-						
+
 						$show_title = $_GET['show'];
-						
+
 						$show_title = str_replace('-', ' ', $show_title);
-						
+
 						echo $show_title;
 					}
 					elseif($page_title) {
@@ -82,24 +82,24 @@
 					}
 					else {
 						the_title();
-					} 
+					}
 					echo $h1_close_tag . '</div>';
 
 					?>
-					
-				</div>	
-			
+
+				</div>
+
 				<?
-			}	
-			
+			}
+
 			?>
-			
+
 		</header><!-- .entry-header -->
 
 		<div class="entry-content">
-			
+
 			<?php
-			
+
 			// Check rows exists.
 			if( have_rows('page_section') ):
 
@@ -109,17 +109,17 @@
 					// Load sub field values.
 					$section_id = get_sub_field('section_id');
 					$section_classes = get_sub_field('section_classes');
-			
+
 					$bg_image = get_sub_field('section_background_image');
 					$bg_size = 'full';
 					$bg_src = wp_get_attachment_image_src( $bg_image['id'], $size );
-			
+
 					$bg_color = get_sub_field('section_background_color');
-			
+
 					$section_text_color = get_sub_field('section_text_color');
-			
+
 					$section_custom_text_color = '';
-			
+
 					switch($section_text_color) {
 						case('Dark'):
 							$section_text_color_class = 'section-text-dark';
@@ -132,9 +132,9 @@
 							$section_custom_text_color = get_sub_field('section_custom_text_color');
 							break;
 					}
-					
+
 					$section_columns = get_sub_field('section_columns');
-				
+
 					switch($section_columns) {
 						case 1:
 							$section_layout = '1';
@@ -149,7 +149,7 @@
 							$section_layout = '1/4 + 1/4 + 1/4 + 1/4';
 							break;
 					}
-									
+
 					switch($section_layout) {
 						case '1':
 							$column_1_classes = 'col-12';
@@ -196,67 +196,67 @@
 							$column_1_classes = 'col-12';
 							break;
 					}
-			
+
 					if( get_sub_field('section_content_column_1_classes') ) {
-								
+
 						$column_1_custom_classes = get_sub_field('section_content_column_1_classes');
 
 						if (strpos($column_1_custom_classes, 'col-') !== false ) {
-							$column_1_classes = $column_1_custom_classes;	
+							$column_1_classes = $column_1_custom_classes;
 						}
 						else {
 							$column_1_classes .= ' '. $column_1_custom_classes;
 						}
 
 					}
-			
+
 					if( get_sub_field('section_content_column_2_classes') ) {
 
 						$column_2_custom_classes = get_sub_field('section_content_column_2_classes');
 
 						if (strpos($column_2_custom_classes, 'col-') !== false ) {
-							$column_2_classes = $column_2_custom_classes;	
+							$column_2_classes = $column_2_custom_classes;
 						}
 						else {
 							$column_2_classes .= ' '. $column_2_custom_classes;
 						}
 
 					}
-			
+
 					if( get_sub_field('section_content_column_3_classes') ) {
 
 						$column_3_custom_classes = get_sub_field('section_content_column_3_classes');
 
 						if (strpos($column_3_custom_classes, 'col-') !== false ) {
-							$column_3_classes = $column_3_custom_classes;	
+							$column_3_classes = $column_3_custom_classes;
 						}
 						else {
 							$column_3_classes .= ' '. $column_3_custom_classes;
 						}
 
 					}
-			
+
 					if( get_sub_field('section_content_column_4_classes') ) {
 
 						$column_4_custom_classes = get_sub_field('section_content_column_4_classes');
 
 						if (strpos($column_4_custom_classes, 'col-') !== false ) {
-							$column_4_classes = $column_4_custom_classes;	
+							$column_4_classes = $column_4_custom_classes;
 						}
 						else {
 							$column_4_classes .= ' '. $column_4_custom_classes;
 						}
 
 					}
-								
+
 					?>
 
-					<div id="<? echo $section_id; ?>" class="section-wrapper <? echo $section_text_color_class; ?> <? if($section_classes) { echo $section_classes; } ?>"						 
-						 
-						 <? if($bg_image || $bg_color || $section_custom_text_color) { 
-						 
+					<div id="<? echo $section_id; ?>" class="section-wrapper <? echo $section_text_color_class; ?> <? if($section_classes) { echo $section_classes; } ?>"
+
+						 <? if($bg_image || $bg_color || $section_custom_text_color) {
+
 						 	$style = '';
-	
+
 							if($bg_image) {
 								$style .= 'background-image: url('. $bg_src[0] .'); ';
 							}
@@ -266,38 +266,38 @@
 							if($section_custom_text_color) {
 								$style .= 'color: '. $section_custom_text_color .'; ';
 							}
-	
-							?> style="<? echo $style; ?>" 
+
+							?> style="<? echo $style; ?>"
 						 <? } ?>
 					>
-			
+
 						<div class="container">
-							
+
 							<div class="section-column <? echo $column_1_classes; ?>">
-								
+
 								<? echo get_sub_field('section_content_column_1'); ?>
-								
+
 							</div>
-							
-							<?php 
-							
+
+							<?php
+
 								if($section_columns == 2) { ?>
-									
+
 									<div class="section-column <? echo $column_2_classes; ?>">
-										
+
 										<? echo get_sub_field('section_content_column_2'); ?>
-										
+
 									</div>
-							
+
 								<?
 								}
-							
+
 							?>
-							
-							<?php 
-							
+
+							<?php
+
 								if($section_columns == 3) { ?>
-							
+
 										<div class="section-column <? echo $column_2_classes; ?>">
 
 											<? echo get_sub_field('section_content_column_2'); ?>
@@ -309,44 +309,44 @@
 											<? echo get_sub_field('section_content_column_3'); ?>
 
 										</div>
-							
+
 								<?
 								}
-							
+
 							?>
-							
-							<?php 
-							
+
+							<?php
+
 								if($section_columns == 4) { ?>
-							
+
 									<div class="section-column <? echo $column_2_classes; ?>">
-										
+
 										<? echo get_sub_field('section_content_column_2'); ?>
-										
+
 									</div>
-									
+
 									<div class="section-column <? echo $column_3_classes; ?>">
-										
+
 										<? echo get_sub_field('section_content_column_3'); ?>
-										
+
 									</div>
-									
+
 									<div class="section-column <? echo $column_4_classes; ?>">
-										
+
 										<? echo get_sub_field('section_content_column_4'); ?>
-										
+
 									</div>
-							
+
 								<?
 								}
-							
+
 							?>
-							
+
 						</div> <!-- end .container -->
-						
+
 					</div> <!-- end .section-wrapper -->
 					<?
-					
+
 					// Do something...
 
 				// End loop.
@@ -356,9 +356,9 @@
 			else :
 				// Do something...
 			endif;
-						
+
 			?>
-			
+
 			<?php
 				the_content(
 					sprintf(
