@@ -30,3 +30,5 @@ If you would like to keep a separate set of configuration for local development,
 
 ![alt](http://i.imgur.com/fzIeQBP.png, '')
 
+WE DON'T TALK ABOUT TU. NO NO NO NO.
+
