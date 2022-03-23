@@ -1,0 +1,1278 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Types Unlimited\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-19 13:28-0700\n"
+"PO-Revision-Date: 2016-08-09 12:06-0800\n"
+"Last-Translator: AJ Clarke <wpexplorer@gmail.com>\n"
+"Language-Team: WPExplorer.com\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;"
+"_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;_nx_noop:4c,1,2;"
+"_nx;_esc_attr__;esc_attr_x;esc_attr_e;esc_html__;esc_html_e;esc_html_x;__;_e;"
+"esc_attr__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.4.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: inc/Metaboxes.php:393
+msgid "Select Icon"
+msgstr ""
+
+#: inc/Metaboxes.php:403 inc/Metaboxes.php:405
+msgid "Search for an icon"
+msgstr ""
+
+#: inc/Metaboxes.php:416
+msgid "Close"
+msgstr ""
+
+#: inc/PostTypes.php:61 inc/PostTypes.php:62
+msgid "Post Types"
+msgstr ""
+
+#: inc/PostTypes.php:82
+msgid "Post Types Unlimited"
+msgstr ""
+
+#: inc/PostTypes.php:83
+msgid "Post Type"
+msgstr ""
+
+#: inc/PostTypes.php:84 inc/PostTypes.php:349 inc/Taxonomies.php:83
+msgid "Add New"
+msgstr ""
+
+#: inc/PostTypes.php:85
+msgid "Add New Post Type"
+msgstr ""
+
+#: inc/PostTypes.php:86
+msgid "Edit Post Type"
+msgstr ""
+
+#: inc/PostTypes.php:87
+msgid "New Post Type"
+msgstr ""
+
+#: inc/PostTypes.php:88
+msgid "View Post Type"
+msgstr ""
+
+#: inc/PostTypes.php:89
+msgid "Search Post Types"
+msgstr ""
+
+#: inc/PostTypes.php:90
+msgid "No Post Types found"
+msgstr ""
+
+#: inc/PostTypes.php:91
+msgid "No Post Types found in Trash"
+msgstr ""
+
+#: inc/PostTypes.php:119 inc/Taxonomies.php:118
+msgid "Main Settings"
+msgstr ""
+
+#: inc/PostTypes.php:125 inc/Taxonomies.php:124
+msgid "Name (required)"
+msgstr ""
+
+#: inc/PostTypes.php:131
+msgid "(e.g. product)"
+msgstr ""
+
+#: inc/PostTypes.php:132
+msgid ""
+"max. 20 characters, cannot contain capital letters, underscores or spaces."
+msgstr ""
+
+#: inc/PostTypes.php:135 inc/Taxonomies.php:134
+msgid "Label"
+msgstr ""
+
+#: inc/PostTypes.php:138 inc/PostTypes.php:152 inc/PostTypes.php:506
+msgid "(e.g. Products)"
+msgstr ""
+
+#: inc/PostTypes.php:139
+msgid "A plural descriptive name for the post type marked for translation."
+msgstr ""
+
+#: inc/PostTypes.php:142 inc/Taxonomies.php:142
+msgid "Singular Name"
+msgstr ""
+
+#: inc/PostTypes.php:145
+msgid "(e.g. Product)"
+msgstr ""
+
+#: inc/PostTypes.php:146
+msgid "Name for one object of this post type."
+msgstr ""
+
+#: inc/PostTypes.php:149 inc/Taxonomies.php:149
+msgid "Custom Menu Name"
+msgstr ""
+
+#: inc/PostTypes.php:153
+msgid ""
+"String used for the menu name. Only used for top level admin menus, if you "
+"define a submenu location WordPress will default to the All Items label."
+msgstr ""
+
+#: inc/PostTypes.php:156 inc/Taxonomies.php:156
+msgid "Description (optional)"
+msgstr ""
+
+#: inc/PostTypes.php:159
+msgid "A short descriptive summary of what the post type is."
+msgstr ""
+
+#: inc/PostTypes.php:162 inc/PostTypes.php:709 inc/Taxonomies.php:177
+#: inc/Taxonomies.php:608
+msgid "Public"
+msgstr ""
+
+#: inc/PostTypes.php:166
+msgid ""
+"(default: true) Controls how the type is visible to authors "
+"(show_in_nav_menus, show_ui) and readers."
+msgstr ""
+
+#: inc/PostTypes.php:169
+msgid "Exclude From Search"
+msgstr ""
+
+#: inc/PostTypes.php:173
+msgid ""
+"(default: false) Whether to exclude posts with this post type from front end "
+"search results. Note: This will also exclude the post type from custom "
+"queries."
+msgstr ""
+
+#: inc/PostTypes.php:176 inc/PostTypes.php:710 inc/Taxonomies.php:184
+#: inc/Taxonomies.php:609
+msgid "Publicly Queryable"
+msgstr ""
+
+#: inc/PostTypes.php:180
+msgid ""
+"(default: true) Whether queries can be performed on the front end as part of "
+"parse_request()."
+msgstr ""
+
+#: inc/PostTypes.php:183 inc/Taxonomies.php:191
+msgid "Show UI"
+msgstr ""
+
+#: inc/PostTypes.php:187
+msgid ""
+"(default: true) Whether to generate a default UI for managing this post type "
+"in the admin."
+msgstr ""
+
+#: inc/PostTypes.php:190
+msgid "Show In Nav Menus"
+msgstr ""
+
+#: inc/PostTypes.php:194
+msgid ""
+"(default: true) Whether post_type is available for selection in navigation "
+"menus."
+msgstr ""
+
+#: inc/PostTypes.php:197
+msgid "Show In Menu"
+msgstr ""
+
+#: inc/PostTypes.php:201
+msgid ""
+"(default: true) Show the post type in the admin menu. Show UI must be true."
+msgstr ""
+
+#: inc/PostTypes.php:204
+msgid "Sub-Menu Location (optional)"
+msgstr ""
+
+#: inc/PostTypes.php:207
+msgid "(e.g. tools.php)"
+msgstr ""
+
+#: inc/PostTypes.php:208
+msgid ""
+"Top-level admin menu page file name for which the post type should be in the "
+"sub menu of such as tools.php, options-general.php, themes.php or edit.php"
+msgstr ""
+
+#: inc/PostTypes.php:211
+msgid "Show In Admin Bar"
+msgstr ""
+
+#: inc/PostTypes.php:215
+msgid ""
+"(default: false) Whether to make this post type available in the WordPress "
+"admin bar."
+msgstr ""
+
+#: inc/PostTypes.php:218
+msgid "Menu Position"
+msgstr ""
+
+#: inc/PostTypes.php:221
+msgid ""
+"(default: 50) The position in the menu order the post type should appear. "
+"show_in_menu must be true."
+msgstr ""
+
+#: inc/PostTypes.php:225
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/PostTypes.php:229
+msgid "The custom icon for the menu item. show_in_menu must be true."
+msgstr ""
+
+#: inc/PostTypes.php:232
+msgid "Capability Type"
+msgstr ""
+
+#: inc/PostTypes.php:235
+msgid ""
+"(default: post) The post type to use to build the read, edit, and delete "
+"capabilities."
+msgstr ""
+
+#: inc/PostTypes.php:237
+msgid "Post"
+msgstr ""
+
+#: inc/PostTypes.php:238
+msgid "Page"
+msgstr ""
+
+#: inc/PostTypes.php:242 inc/Taxonomies.php:240
+msgid "Hierarchical"
+msgstr ""
+
+#: inc/PostTypes.php:246
+msgid ""
+"(default: false) Whether the post type is hierarchical (e.g. page). Allows "
+"Parent to be specified."
+msgstr ""
+
+#: inc/PostTypes.php:249
+msgid "Supports"
+msgstr ""
+
+#: inc/PostTypes.php:252
+msgid "The various metaboxes to be included when editing a singular post."
+msgstr ""
+
+#: inc/PostTypes.php:254
+msgid "Title (default)"
+msgstr ""
+
+#: inc/PostTypes.php:255
+msgid "Editor (default)"
+msgstr ""
+
+#: inc/PostTypes.php:256
+msgid "Author"
+msgstr ""
+
+#: inc/PostTypes.php:257
+msgid "Thumbnail/Featured Image"
+msgstr ""
+
+#: inc/PostTypes.php:258
+msgid "Excerpt"
+msgstr ""
+
+#: inc/PostTypes.php:259
+msgid "Custom Fields"
+msgstr ""
+
+#: inc/PostTypes.php:260
+msgid "Comments"
+msgstr ""
+
+#: inc/PostTypes.php:261
+msgid "Revisions"
+msgstr ""
+
+#: inc/PostTypes.php:262
+msgid "Page Attributes"
+msgstr ""
+
+#: inc/PostTypes.php:263
+msgid "Post Formats"
+msgstr ""
+
+#: inc/PostTypes.php:268
+msgid "Core Taxonomies"
+msgstr ""
+
+#: inc/PostTypes.php:271
+msgid "Core taxonomies to be used for this post type."
+msgstr ""
+
+#: inc/PostTypes.php:273
+msgid "Category"
+msgstr ""
+
+#: inc/PostTypes.php:274
+msgid "Post Tag"
+msgstr ""
+
+#: inc/PostTypes.php:278 inc/PostTypes.php:711
+msgid "Has Archive"
+msgstr ""
+
+#: inc/PostTypes.php:282
+msgid "(default: false) Enables post type archives."
+msgstr ""
+
+#: inc/PostTypes.php:285 inc/Taxonomies.php:247
+msgid "Rewrite"
+msgstr ""
+
+#: inc/PostTypes.php:289
+msgid ""
+"(default: true) Triggers the handling of rewrites for this post type. To "
+"prevent rewrites, disable."
+msgstr ""
+
+#: inc/PostTypes.php:292 inc/Taxonomies.php:254
+msgid "Custom Rewrite Slug"
+msgstr ""
+
+#: inc/PostTypes.php:295 inc/PostTypes.php:327
+msgid "(default: post type name)"
+msgstr ""
+
+#: inc/PostTypes.php:296
+msgid ""
+"Customize the permalink structure slug. Defaults to the post type name. "
+"Rewrite must be enabled in order for this to work."
+msgstr ""
+
+#: inc/PostTypes.php:299 inc/Taxonomies.php:261
+msgid "With Front"
+msgstr ""
+
+#: inc/PostTypes.php:303
+msgid ""
+"(default: true) Should the permalink structure be prepended with the front "
+"base (example: if your permalink structure is /blog/, then your links will "
+"be blog/{post_type_slug}/ if enabled)."
+msgstr ""
+
+#: inc/PostTypes.php:306
+msgid "Show in Rest API (enables Gutenberg)"
+msgstr ""
+
+#: inc/PostTypes.php:310
+msgid "(default: false) Whether to expose this post type in the REST API."
+msgstr ""
+
+#: inc/PostTypes.php:317 inc/Taxonomies.php:279
+msgid "Advanced Settings"
+msgstr ""
+
+#: inc/PostTypes.php:324 inc/Taxonomies.php:293
+msgid "Custom REST API Base"
+msgstr ""
+
+#: inc/PostTypes.php:328
+msgid ""
+"The base slug that this post type will use when accessed using the REST API."
+msgstr ""
+
+#: inc/PostTypes.php:331 inc/Taxonomies.php:300
+msgid "Custom REST Controller Class"
+msgstr ""
+
+#: inc/PostTypes.php:334
+msgid "(default: WP_REST_Posts_Controller)"
+msgstr ""
+
+#: inc/PostTypes.php:335
+msgid ""
+"An optional custom controller to use instead of WP_REST_Posts_Controller. "
+"Must be a subclass of WP_REST_Controller."
+msgstr ""
+
+#: inc/PostTypes.php:342 inc/Taxonomies.php:311
+msgid "Custom Labels (optional)"
+msgstr ""
+
+#: inc/PostTypes.php:352
+msgid "(e.g. Add New)"
+msgstr ""
+
+#: inc/PostTypes.php:353
+msgid "Displayed in the admin submenu."
+msgstr ""
+
+#: inc/PostTypes.php:356 inc/Taxonomies.php:346
+msgid "Add New Item"
+msgstr ""
+
+#: inc/PostTypes.php:359
+msgid "(e.g. Add New Product)"
+msgstr ""
+
+#: inc/PostTypes.php:360
+msgid "Used at the top of the post editor screen when adding a new post."
+msgstr ""
+
+#: inc/PostTypes.php:363 inc/Taxonomies.php:325
+msgid "Edit Item"
+msgstr ""
+
+#: inc/PostTypes.php:366
+msgid "(e.g. Edit Product)"
+msgstr ""
+
+#: inc/PostTypes.php:367
+msgid ""
+"Used at the top of the post editor screen when editing an existing post type."
+msgstr ""
+
+#: inc/PostTypes.php:370
+msgid "New Item"
+msgstr ""
+
+#: inc/PostTypes.php:373
+msgid "(e.g. New Product)"
+msgstr ""
+
+#: inc/PostTypes.php:374
+msgid "Post type label. Displayed in the admin menu for displaying post types."
+msgstr ""
+
+#: inc/PostTypes.php:377 inc/Taxonomies.php:332
+msgid "View Item"
+msgstr ""
+
+#: inc/PostTypes.php:380
+msgid "(e.g. View Product)"
+msgstr ""
+
+#: inc/PostTypes.php:381
+msgid ""
+"Used in the admin bar when viewing the editor screen for a published post."
+msgstr ""
+
+#: inc/PostTypes.php:384
+msgid "View Items"
+msgstr ""
+
+#: inc/PostTypes.php:387
+msgid "(e.g. View Products)"
+msgstr ""
+
+#: inc/PostTypes.php:388
+msgid "The plural version of View Item."
+msgstr ""
+
+#: inc/PostTypes.php:391 inc/Taxonomies.php:374
+msgid "Search Items"
+msgstr ""
+
+#: inc/PostTypes.php:394
+msgid "(e.g. Search Products)"
+msgstr ""
+
+#: inc/PostTypes.php:395
+msgid "Used for the search button in the admin post type list screen."
+msgstr ""
+
+#: inc/PostTypes.php:398 inc/Taxonomies.php:409
+msgid "Not Found"
+msgstr ""
+
+#: inc/PostTypes.php:401
+msgid "(e.g. No Products found)"
+msgstr ""
+
+#: inc/PostTypes.php:402
+msgid ""
+"Used when there are no items to display while doing a search in the post "
+"type list screen."
+msgstr ""
+
+#: inc/PostTypes.php:405
+msgid "Not Found in Trash"
+msgstr ""
+
+#: inc/PostTypes.php:408
+msgid "(e.g. No Products found in Trash)"
+msgstr ""
+
+#: inc/PostTypes.php:409
+msgid ""
+"String for use when there are no items to display while doing a search in "
+"the trash."
+msgstr ""
+
+#: inc/PostTypes.php:412 inc/Taxonomies.php:367
+msgid "Parent Item Colon"
+msgstr ""
+
+#: inc/PostTypes.php:415
+msgid "(e.g. Parent Product:)"
+msgstr ""
+
+#: inc/PostTypes.php:416
+msgid "String for use with hierarchical post types that require a colon."
+msgstr ""
+
+#: inc/PostTypes.php:419 inc/Taxonomies.php:318
+msgid "All Items"
+msgstr ""
+
+#: inc/PostTypes.php:422
+msgid "(e.g. All Products)"
+msgstr ""
+
+#: inc/PostTypes.php:423
+msgid "String for use in the submenu."
+msgstr ""
+
+#: inc/PostTypes.php:426
+msgid "Archives"
+msgstr ""
+
+#: inc/PostTypes.php:429
+msgid "(e.g. Product Archives)"
+msgstr ""
+
+#: inc/PostTypes.php:430
+msgid "String for use with archives in nav menus."
+msgstr ""
+
+#: inc/PostTypes.php:433
+msgid "Attributes"
+msgstr ""
+
+#: inc/PostTypes.php:436
+msgid "(e.g. Product Attributes)"
+msgstr ""
+
+#: inc/PostTypes.php:437
+msgid "Label for the attributes meta box."
+msgstr ""
+
+#: inc/PostTypes.php:440
+msgid "Insert into Item"
+msgstr ""
+
+#: inc/PostTypes.php:443
+msgid "(e.g. Insert into Product)"
+msgstr ""
+
+#: inc/PostTypes.php:444
+msgid "String for the media frame button."
+msgstr ""
+
+#: inc/PostTypes.php:447
+msgid "Uploaded into this Item"
+msgstr ""
+
+#: inc/PostTypes.php:450
+msgid "(e.g. Uploaded to this Product)"
+msgstr ""
+
+#: inc/PostTypes.php:451
+msgid "String for the media frame filter."
+msgstr ""
+
+#: inc/PostTypes.php:454
+msgid "Featured Image"
+msgstr ""
+
+#: inc/PostTypes.php:457
+msgid "(e.g. Featured Image)"
+msgstr ""
+
+#: inc/PostTypes.php:458
+msgid "String used for the \"Featured Image\" phrase."
+msgstr ""
+
+#: inc/PostTypes.php:461
+msgid "Set Featured Image"
+msgstr ""
+
+#: inc/PostTypes.php:464
+msgid "(e.g. Set featured image)"
+msgstr ""
+
+#: inc/PostTypes.php:465
+msgid "String used for the \"Set featured image\" phrase."
+msgstr ""
+
+#: inc/PostTypes.php:468
+msgid "Remove Featured Image"
+msgstr ""
+
+#: inc/PostTypes.php:471
+msgid "(e.g. Remove featured image)"
+msgstr ""
+
+#: inc/PostTypes.php:472
+msgid "String used for the \"Remove featured image\" phrase."
+msgstr ""
+
+#: inc/PostTypes.php:475
+msgid "Use Featured Image"
+msgstr ""
+
+#: inc/PostTypes.php:478
+msgid "(e.g. Use as featured image)"
+msgstr ""
+
+#: inc/PostTypes.php:479
+msgid "String used for the \"Use as featured image\" phrase."
+msgstr ""
+
+#: inc/PostTypes.php:482
+msgid "Filter Items List"
+msgstr ""
+
+#: inc/PostTypes.php:485
+msgid "(e.g. Filter products list)"
+msgstr ""
+
+#: inc/PostTypes.php:486
+msgid "String for the table views hidden heading. Used for screen readers."
+msgstr ""
+
+#: inc/PostTypes.php:489
+msgid "Items List Navigation"
+msgstr ""
+
+#: inc/PostTypes.php:492
+msgid "(e.g. Products list navigation)"
+msgstr ""
+
+#: inc/PostTypes.php:493
+msgid ""
+"String for the table views pagination hidden heading. Used for screen "
+"readers."
+msgstr ""
+
+#: inc/PostTypes.php:496
+msgid "Items List"
+msgstr ""
+
+#: inc/PostTypes.php:499
+msgid "(e.g. Products list)"
+msgstr ""
+
+#: inc/PostTypes.php:500
+msgid "String for the table hidden heading. Used for screen readers."
+msgstr ""
+
+#: inc/PostTypes.php:503
+msgid "Admin Bar Name"
+msgstr ""
+
+#: inc/PostTypes.php:507
+msgid "String for use in the Admin menu bar."
+msgstr ""
+
+#: inc/PostTypes.php:572
+#, php-format
+msgctxt "post type label"
+msgid "Add New %s"
+msgstr ""
+
+#: inc/PostTypes.php:573
+#, php-format
+msgctxt "post type label"
+msgid "Edit %s"
+msgstr ""
+
+#: inc/PostTypes.php:574
+#, php-format
+msgctxt "post type label"
+msgid "New %s"
+msgstr ""
+
+#: inc/PostTypes.php:575 inc/PostTypes.php:577
+#, php-format
+msgctxt "post type label"
+msgid "View %s"
+msgstr ""
+
+#: inc/PostTypes.php:578
+#, php-format
+msgctxt "post type label"
+msgid "All %s"
+msgstr ""
+
+#: inc/PostTypes.php:579
+#, php-format
+msgctxt "post type label"
+msgid "Search %s"
+msgstr ""
+
+#: inc/PostTypes.php:580
+#, php-format
+msgctxt "post type label"
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/PostTypes.php:581
+#, php-format
+msgctxt "post type label"
+msgid "No %s found."
+msgstr ""
+
+#: inc/PostTypes.php:582
+#, php-format
+msgctxt "post type label"
+msgid "No %s found in Trash."
+msgstr ""
+
+#: inc/PostTypes.php:583
+#, php-format
+msgctxt "post type label"
+msgid "%s Archives"
+msgstr ""
+
+#: inc/PostTypes.php:584
+#, php-format
+msgctxt "post type label"
+msgid "%s Attributes"
+msgstr ""
+
+#: inc/PostTypes.php:585
+#, php-format
+msgctxt "post type label"
+msgid "Insert into %s"
+msgstr ""
+
+#: inc/PostTypes.php:586
+#, php-format
+msgctxt "post type label"
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: inc/PostTypes.php:587
+#, php-format
+msgctxt "post type label"
+msgid "Filter %s list"
+msgstr ""
+
+#: inc/PostTypes.php:588
+#, php-format
+msgctxt "post type label"
+msgid "Filter %s list navigation"
+msgstr ""
+
+#: inc/PostTypes.php:589
+#, php-format
+msgctxt "post type label"
+msgid "%s list"
+msgstr ""
+
+#: inc/PostTypes.php:707
+msgid "Admin Icon"
+msgstr ""
+
+#: inc/PostTypes.php:708 inc/Taxonomies.php:607
+msgid "Slug"
+msgstr ""
+
+#: inc/PostTypes.php:759 inc/PostTypes.php:773 inc/PostTypes.php:787
+#: inc/Taxonomies.php:645 inc/Taxonomies.php:659
+msgid "yes"
+msgstr ""
+
+#: inc/PostTypes.php:762 inc/PostTypes.php:776 inc/PostTypes.php:790
+#: inc/Taxonomies.php:648 inc/Taxonomies.php:662
+msgid "no"
+msgstr ""
+
+#: inc/Taxonomies.php:62 inc/Taxonomies.php:63 inc/Taxonomies.php:81
+#: inc/Taxonomies.php:82
+msgid "Taxonomies"
+msgstr ""
+
+#: inc/Taxonomies.php:84
+msgid "Add New Taxonomy"
+msgstr ""
+
+#: inc/Taxonomies.php:85
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: inc/Taxonomies.php:86
+msgid "New Taxonomy"
+msgstr ""
+
+#: inc/Taxonomies.php:87
+msgid "View Taxonomy"
+msgstr ""
+
+#: inc/Taxonomies.php:88
+msgid "Search Taxonomies"
+msgstr ""
+
+#: inc/Taxonomies.php:89
+msgid "No Taxonomies found"
+msgstr ""
+
+#: inc/Taxonomies.php:90
+msgid "No Taxonomies found in Trash"
+msgstr ""
+
+#: inc/Taxonomies.php:130
+msgid "(e.g. style)"
+msgstr ""
+
+#: inc/Taxonomies.php:131
+msgid ""
+"The name of the taxonomy. Name should only contain lowercase letters and the "
+"underscore character, and not be more than 32 characters long (database "
+"structure restriction)."
+msgstr ""
+
+#: inc/Taxonomies.php:138 inc/Taxonomies.php:152 inc/Taxonomies.php:165
+msgid "(e.g. Styles)"
+msgstr ""
+
+#: inc/Taxonomies.php:139
+msgid "A plural descriptive name for the taxonomy marked for translation."
+msgstr ""
+
+#: inc/Taxonomies.php:145
+msgid "(e.g. Style)"
+msgstr ""
+
+#: inc/Taxonomies.php:146
+msgid "Name for one object of this taxonomy."
+msgstr ""
+
+#: inc/Taxonomies.php:153
+msgid "String used for the menu name."
+msgstr ""
+
+#: inc/Taxonomies.php:159
+msgid "Include a description of the taxonomy."
+msgstr ""
+
+#: inc/Taxonomies.php:162
+msgid "Menu Name"
+msgstr ""
+
+#: inc/Taxonomies.php:166
+msgid ""
+"The menu name text. This string is the name to give menu items. If not set, "
+"defaults to value of name label."
+msgstr ""
+
+#: inc/Taxonomies.php:169
+msgid "Post Style Support"
+msgstr ""
+
+#: inc/Taxonomies.php:173
+msgid ""
+"(default: post) Select the post types you want this taxonomy to be supported "
+"by. You must select at least one post type. Only public post types are "
+"available by default."
+msgstr ""
+
+#: inc/Taxonomies.php:181
+msgid ""
+"Whether a taxonomy is intended for use publicly either via the admin "
+"interface or by front-end users."
+msgstr ""
+
+#: inc/Taxonomies.php:188
+msgid "(default: true) Whether the taxonomy is publicly queryable."
+msgstr ""
+
+#: inc/Taxonomies.php:195
+msgid ""
+"(default: true) Whether to generate a default UI for managing this taxonomy."
+msgstr ""
+
+#: inc/Taxonomies.php:198
+msgid "Show in Menu"
+msgstr ""
+
+#: inc/Taxonomies.php:202
+msgid ""
+"(default: true) Where to show the taxonomy in the admin menu. Show UI must "
+"be true."
+msgstr ""
+
+#: inc/Taxonomies.php:205
+msgid "Show in Nav Menus"
+msgstr ""
+
+#: inc/Taxonomies.php:209
+msgid ""
+"(default: true) Makes this taxonomy available for selection in navigation "
+"menus."
+msgstr ""
+
+#: inc/Taxonomies.php:212
+msgid "Show in REST API"
+msgstr ""
+
+#: inc/Taxonomies.php:216
+msgid ""
+"(default: false) Whether to include the taxonomy in the REST API. Enable to "
+"show this taxonomy when editing posts via the Gutenberg editor."
+msgstr ""
+
+#: inc/Taxonomies.php:219
+msgid "Show in TagCloud"
+msgstr ""
+
+#: inc/Taxonomies.php:223
+msgid "(default: true) To change the base url of REST API route."
+msgstr ""
+
+#: inc/Taxonomies.php:226
+msgid "Show in Quick Edit"
+msgstr ""
+
+#: inc/Taxonomies.php:230
+msgid ""
+"(default: true) Whether to show the taxonomy in the quick/bulk edit panel."
+msgstr ""
+
+#: inc/Taxonomies.php:233
+msgid "Show Admin Column"
+msgstr ""
+
+#: inc/Taxonomies.php:237
+msgid ""
+"(default: false) Whether to allow automatic creation of taxonomy columns on "
+"associated post-types table."
+msgstr ""
+
+#: inc/Taxonomies.php:244
+msgid ""
+"(default: false) Is this taxonomy hierarchical (have descendants) like "
+"categories or not hierarchical like tags."
+msgstr ""
+
+#: inc/Taxonomies.php:251
+msgid ""
+"(default: true) Set to false to prevent automatic URL rewriting a.k.a. "
+"\"pretty permalinks\"."
+msgstr ""
+
+#: inc/Taxonomies.php:257 inc/Taxonomies.php:296
+msgid "(default: taxonomy name)"
+msgstr ""
+
+#: inc/Taxonomies.php:258
+msgid "Used as pretty permalink text (i.e. /tag/)."
+msgstr ""
+
+#: inc/Taxonomies.php:265
+msgid "(default: true) Allowing permalinks to be prepended with front base."
+msgstr ""
+
+#: inc/Taxonomies.php:268
+msgid "Hierarchical URL's"
+msgstr ""
+
+#: inc/Taxonomies.php:272
+msgid "(default: true) Allow hierarchical urls."
+msgstr ""
+
+#: inc/Taxonomies.php:286
+msgid "Custom Meta Box Callback"
+msgstr ""
+
+#: inc/Taxonomies.php:289
+msgid "(e.g. my_custom_taxonomy_meta_box_cb)"
+msgstr ""
+
+#: inc/Taxonomies.php:290
+msgid ""
+"(default: null) Provide a callback function that will be called when setting "
+"up the meta boxes for the edit form."
+msgstr ""
+
+#: inc/Taxonomies.php:297
+msgid "To change the base url of REST API route."
+msgstr ""
+
+#: inc/Taxonomies.php:303
+msgid "(default: WP_REST_Terms_Controller)"
+msgstr ""
+
+#: inc/Taxonomies.php:304
+msgid "REST API Controller class name."
+msgstr ""
+
+#: inc/Taxonomies.php:321
+msgid "(e.g. All Styles)"
+msgstr ""
+
+#: inc/Taxonomies.php:322
+msgid "The all items text."
+msgstr ""
+
+#: inc/Taxonomies.php:328
+msgid "(e.g. Edit Style)"
+msgstr ""
+
+#: inc/Taxonomies.php:329
+msgid "The edit item text."
+msgstr ""
+
+#: inc/Taxonomies.php:335
+msgid "(e.g. View Style)"
+msgstr ""
+
+#: inc/Taxonomies.php:336
+msgid "The view item text."
+msgstr ""
+
+#: inc/Taxonomies.php:339
+msgid "Update Item"
+msgstr ""
+
+#: inc/Taxonomies.php:342
+msgid "(e.g. Update Style)"
+msgstr ""
+
+#: inc/Taxonomies.php:343
+msgid "The update item text."
+msgstr ""
+
+#: inc/Taxonomies.php:349
+msgid "(e.g. Add New Style)"
+msgstr ""
+
+#: inc/Taxonomies.php:350
+msgid "The add new item text."
+msgstr ""
+
+#: inc/Taxonomies.php:353
+msgid "Add New Item Name"
+msgstr ""
+
+#: inc/Taxonomies.php:356
+msgid "(e.g. New Style Name)"
+msgstr ""
+
+#: inc/Taxonomies.php:357
+msgid "The add new item name text."
+msgstr ""
+
+#: inc/Taxonomies.php:360
+msgid "Parent Item"
+msgstr ""
+
+#: inc/Taxonomies.php:363
+msgid "(e.g. Parent Style)"
+msgstr ""
+
+#: inc/Taxonomies.php:364
+msgid ""
+"The parent item text. This string is not used on non-hierarchical taxonomies."
+msgstr ""
+
+#: inc/Taxonomies.php:370
+msgid "(e.g. Parent Style:)"
+msgstr ""
+
+#: inc/Taxonomies.php:371
+msgid "The same as Parent Item but with a colon in the end."
+msgstr ""
+
+#: inc/Taxonomies.php:377
+msgid "(e.g. Search Styles)"
+msgstr ""
+
+#: inc/Taxonomies.php:378
+msgid "The search items text."
+msgstr ""
+
+#: inc/Taxonomies.php:381
+msgid "Popular Items"
+msgstr ""
+
+#: inc/Taxonomies.php:384
+msgid "(e.g. Popular Styles)"
+msgstr ""
+
+#: inc/Taxonomies.php:385
+msgid ""
+"The popular items text. This string is not used on hierarchical taxonomies."
+msgstr ""
+
+#: inc/Taxonomies.php:388
+msgid "Separate Items With Commas"
+msgstr ""
+
+#: inc/Taxonomies.php:391
+msgid "(e.g. Separate styles with commas)"
+msgstr ""
+
+#: inc/Taxonomies.php:392
+msgid ""
+"The separate item with commas text used in the taxonomy meta box. This "
+"string is not used on hierarchical taxonomies."
+msgstr ""
+
+#: inc/Taxonomies.php:395
+msgid "Add or Remove Items"
+msgstr ""
+
+#: inc/Taxonomies.php:398
+msgid "(e.g. Add or remove types)"
+msgstr ""
+
+#: inc/Taxonomies.php:399
+msgid ""
+"The add or remove items text and used in the meta box when JavaScript is "
+"disabled. This string is not used on hierarchical taxonomies."
+msgstr ""
+
+#: inc/Taxonomies.php:402
+msgid "Choose from Most Used"
+msgstr ""
+
+#: inc/Taxonomies.php:405
+msgid "(e.g. Choose from the most used types)"
+msgstr ""
+
+#: inc/Taxonomies.php:406
+msgid ""
+"The choose from most used text used in the taxonomy meta box. This string is "
+"not used on hierarchical taxonomies."
+msgstr ""
+
+#: inc/Taxonomies.php:412
+msgid "(e.g. No styles found)"
+msgstr ""
+
+#: inc/Taxonomies.php:413
+msgid ""
+"The text displayed via clicking 'Choose from the most used {taxonomy}' in "
+"the taxonomy meta box when no {taxonomies} are available and the text used "
+"in the terms list table when there are no items for a taxonomy."
+msgstr ""
+
+#: inc/Taxonomies.php:416
+msgid "Back to Items"
+msgstr ""
+
+#: inc/Taxonomies.php:419
+msgid "(e.g. Back to styles)"
+msgstr ""
+
+#: inc/Taxonomies.php:420
+msgid ""
+"The text displayed after a term has been updated for a link back to main "
+"index."
+msgstr ""
+
+#: inc/Taxonomies.php:502
+#, php-format
+msgctxt "taxonomy label"
+msgid "Search %s"
+msgstr ""
+
+#: inc/Taxonomies.php:503
+#, php-format
+msgctxt "taxonomy label"
+msgid "All %s"
+msgstr ""
+
+#: inc/Taxonomies.php:504
+#, php-format
+msgctxt "taxonomy label"
+msgid "Parent %s"
+msgstr ""
+
+#: inc/Taxonomies.php:505
+#, php-format
+msgctxt "taxonomy label"
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/Taxonomies.php:506
+#, php-format
+msgctxt "taxonomy label"
+msgid "View %s"
+msgstr ""
+
+#: inc/Taxonomies.php:507
+#, php-format
+msgctxt "taxonomy label"
+msgid "Edit %s"
+msgstr ""
+
+#: inc/Taxonomies.php:508
+#, php-format
+msgctxt "taxonomy label"
+msgid "Update %s"
+msgstr ""
+
+#: inc/Taxonomies.php:509
+#, php-format
+msgctxt "taxonomy label"
+msgid "Add New %s"
+msgstr ""
+
+#: inc/Taxonomies.php:510
+#, php-format
+msgctxt "taxonomy label"
+msgid "New %s"
+msgstr ""
+
+#: inc/Taxonomies.php:511
+#, php-format
+msgctxt "taxonomy label"
+msgid "Popular %s"
+msgstr ""
+
+#: inc/Taxonomies.php:512
+#, php-format
+msgctxt "taxonomy label"
+msgid "Separate %s with commas"
+msgstr ""
+
+#: inc/Taxonomies.php:513
+#, php-format
+msgctxt "taxonomy label"
+msgid "Add or remove %s"
+msgstr ""
+
+#: inc/Taxonomies.php:514 inc/Taxonomies.php:515 inc/Taxonomies.php:516
+#, php-format
+msgctxt "taxonomy label"
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: inc/Taxonomies.php:517
+#, php-format
+msgctxt "taxonomy label"
+msgid "Back to %s"
+msgstr ""
+
+#: inc/Taxonomies.php:610
+msgid "Assigned To"
+msgstr ""

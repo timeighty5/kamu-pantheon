@@ -1,0 +1,37 @@
+.stpGettingStart .topHeader{
+    text-align: center;
+    border-width: 3px 0;
+    border-style: solid;
+    border-color: currentColor;
+    padding:10px;
+}
+.stpGettingStart .topHeader p{
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.stpGettingStart .headerImg{
+    min-height: 290px;
+    background-color:#fff; 
+}
+
+.stpGettingStart .stpGettingStartMenu nav{
+    font-size: 14px;
+}
+
+.stpGettingStart .proFeature h2{
+    font-size: 40px;
+}
+.stpGettingStart .proFeature ul{
+    list-style-type: square;
+}
+
+.stpGettingStart .gettingStarted h2{
+    font-size: 40px;
+}
+.stpGettingStart .gettingStarted p{
+    font-size: 18px;
+}

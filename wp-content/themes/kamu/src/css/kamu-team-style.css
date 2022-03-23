@@ -1,0 +1,712 @@
+@charset "utf-8";
+/* KAMU Team CSS Document
+To be merged with main stylesheet
+*/
+
+/************** SUPPORT NAV **************/
+.support-nav {
+	background-color: #EA5845;
+	color: #ffffff;
+	text-align: center;
+	padding: 2rem;
+	height: 250px;
+	width: 400px;
+}
+
+#menu-item-171 .sub-menu .ad-placement .support-nav .support-btn {
+	color: #EA5845;
+	background: #ffffff;
+	border: solid white 3px;
+	display: inline-block;
+	padding: 16px 32px;
+	font-family: 'PBSSans-Bold', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 0;
+	text-transform: uppercase;
+}
+
+#menu-item-171 .sub-menu .ad-placement .support-nav .support-btn:hover, #menu-item-171 .sub-menu .ad-placement .support-nav .support-btn:focus {
+	color: #ffffff;
+	background: none;
+	border: solid white 3px;
+}
+
+#menu-item-171 .sub-menu .ad-placement .support-nav img {
+	width: 50px;
+}
+
+#menu-item-171 .sub-menu .ad-placement .support-nav p {
+	width: 280px;
+	margin: 0 auto;
+	margin-top: 16px;
+	margin-bottom: 24px;
+	font-size:16px;
+	line-height:1.5;
+	font-weight:bold;
+}
+
+
+
+
+/************** END SUPPORT NAV **************/
+
+
+
+/************** LINK HOVERS **************/
+.section-wrapper a {
+transition: 0.2s ease;
+}
+
+.section-wrapper a:hover, .section-wrapper a:focus {
+color: #034d7c;
+text-decoration: none;
+}
+
+.section-wrapper.section-text-light a:not(.btn):hover, .section-wrapper.section-text-light a:not(.btn):focus {
+	color: #d1d1d1;
+	text-decoration: none;
+}
+/************** END LINK HOVERS **************/
+
+
+/*MENU HOVERS*/
+.secondary-menu nav ul li a:hover, .secondary-menu nav ul li a:focus {
+	text-decoration: none;
+}
+
+.button-search {
+	transition: 0.2s ease;
+}
+.button-search:hover, .button-search:focus {
+	background: #034d7c;
+	cursor: pointer;
+}
+
+/* FOOTER HOVERS */
+.site-footer #footer-columns .footer-column .menu-item a:hover, .site-footer #footer-columns .footer-column .menu-item a:focus, .site-footer #footer-columns .footer-column a:hover, .site-footer #footer-columns .footer-column a:focus {
+	text-decoration: none;
+	color: #034d7c;
+}
+
+.social-links li span {
+	transition: 0.2s ease;
+}
+
+.social-links li span:hover, .social-links li span:focus {
+	color: #034d7c;
+}
+
+.site-footer #site-footer-navigation ul li a:hover, .site-footer #site-footer-navigation ul li a:focus {
+	text-decoration: none;
+	color: #d1d1d1;
+}
+
+.cta-wrapper div.wpforms-container-full.form-newsletter .wpforms-form .wpforms-submit-container .newsletter-submit {
+	transition: 0.2s ease;
+}
+.cta-wrapper div.wpforms-container-full.form-newsletter .wpforms-form .wpforms-submit-container .newsletter-submit:hover, .cta-wrapper div.wpforms-container-full.form-newsletter .wpforms-form .wpforms-submit-container .newsletter-submit:focus {
+	background-color: #034d7c;
+	border: 1px solid #034d7c;
+}
+
+.cta-wrapper div.wpforms-container-full.form-newsletter .wpforms-form .wpforms-submit-container .newsletter-submit:hover, .cta-wrapper div.wpforms-container-full.form-newsletter .wpforms-form .wpforms-submit-container .newsletter-submit {
+	font-family: "PBSSans-Bold", sans-serif;
+}
+
+
+
+/************** HOME PAGE FEATURE STRIP **************/
+.home.page #home-hero .section-column:last-child {
+	padding-left: 30px;
+}
+
+.home.page #home-hero img {
+	max-width: 450px;
+}
+
+.home.page #home-hero .section-column p {
+	max-width: 600px;
+}
+/************** END HOME PAGE FEATURE STRIP **************/
+
+
+
+
+
+/************** CARD PADDING **************/
+.section-column p, .section-wrapper.section-text-light p {
+	margin: 0;
+	margin: .75rem 0 .5rem 0;
+}
+
+.section-column p:first-child, .section-wrapper.section-text-light p:first-child {
+	margin-top: 0;
+	margin-bottom: .75rem;
+}
+
+.section-column p:last-child, .section-wrapper.section-text-light p:last-child {
+	margin-bottom: 0;
+}
+/************** END CARD PADDING **************/
+
+
+
+
+
+/************** BLUE H3 **************/
+.section-text-dark h3 {
+	color: #007BC3;
+}
+/************** END BLUE H3 **************/
+
+
+
+
+
+/************** PASSPORT PAGE **************/
+.page-kamu-passport .section-wrapper h2:not(:first-child) {
+	padding-top: 1rem;
+}
+/************** END PASSPORT PAGE **************/
+
+
+
+
+
+
+
+
+/************** RED LEFT BORDER ADJUSTMENTS **************/
+.border-left {
+		margin-top: 2rem;
+
+}
+.border-left:not(:last-child) {
+	padding-bottom: 1rem;
+}
+/************** ENDRED LEFT BORDER ADJUSTMENTS **************/
+
+
+
+
+/************** NEWS AND EVENTS PAGE STYLES **************/
+.page-news-events .section-column p:first-child {
+	margin-bottom: .25rem;
+}
+
+.event-date {
+	font-style: italic;
+	display: block;
+	margin-top: .5rem;
+	color: #333333;
+}
+/************** END NEWS AND EVENTS PAGE STYLES **************/
+
+
+
+
+/************** SUBMIT BUTTON STYLING **************/
+
+.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form input[type="text"] {
+	height: 50px !important;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form button[type="submit"] {
+	height: 51.5px !important;
+	transition: 0.2s ease;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form button[type="submit"]:hover {
+	background-color: #034d7c !important;
+}
+
+.cta-wrapper div.wpforms-container-full.form-newsletter .wpforms-form .wpforms-submit-container .newsletter-submit {
+	margin-top:1px;
+}
+
+.cta-headline {
+	line-height:1.5;
+}
+
+/************** END SUBMIT BUTTON STYLING **************/
+
+
+
+
+
+/************** PODCAST PAGES STYLING **************/
+
+.podcast-page {
+	padding-top:1rem !important;
+}
+
+.podcast-page blockquote {
+	margin: 0;
+	padding: 0;
+	background: #eaeaea;
+	margin-top:.5rem;
+	margin-bottom:.5rem;
+}
+
+.podcast-page blockquote strong {
+	background: #007BC3;
+	padding:.75rem 1rem;
+	display:inline-block;
+	margin-right:.5rem;
+	color:#ffffff;
+}
+
+.podcast-page h2 {
+	padding-top:1.5rem;
+}
+
+.podcast-episode-list {
+	margin-top:2rem;
+	margin-bottom:2rem;
+}
+
+.podcast-episode-list .listing-item {
+	padding-bottom:2rem;
+	padding-top:2rem;
+	padding-left:1rem;
+	border-bottom: dotted #d1d1d1 1px;
+}
+
+.podcast-episode-list .listing-item:nth-child(1) {
+	border-top: dotted #d1d1d1 1px;
+	
+}
+
+.podcast-episode-list .listing-item a.title {
+	font-style:normal;
+	font-size:1.25rem;
+}
+
+.podcast-episode-list .listing-item span.date {
+	display:block;
+	color:#5a5a5a;
+	padding-top:.5rem;
+}
+
+.podcast-episode-list .listing-item span.excerpt {
+	display: block;
+	padding:1.5rem;
+	border-left: solid #007BC3 7px;
+	margin-top: .75rem;
+	line-height: 1.6;
+	background:#fafafa;
+}
+
+.podcast-episode-list .listing-item span.date:before {
+	content:'Air Date: ';
+}
+
+.podcast-episode-list .listing-item:before {
+	content:'\f144';
+	font-family:'Font Awesome 5 Pro';
+	font-weight:400;
+	padding-right:.5rem;
+	color:#5a5a5a;
+}
+
+.podcast-episode-list .listing-item span.excerpt:empty {
+  display: none;
+  visibility: hidden;
+}
+
+
+.single-podcast .entry-header .container {
+	display: flex;
+	max-width: 1110px;
+	margin: 0px auto;
+	flex-wrap: wrap;
+	padding: 0 20px;
+}
+
+.single-podcast #main {
+background: rgb(0,65,103);
+background: linear-gradient(0deg, rgba(0,65,103,1) 0%, rgba(0,65,103,1) 65%, rgba(0,123,195,1) 100%); 
+	color:#ffffff;
+	padding-top:60px;
+}
+
+.podcast-player {
+	max-width:1100px;
+	margin:0 auto;
+	padding: 20px 0 40px 0;
+}
+
+p.powerpress_links {
+	color:#ffffff;
+	padding-top:1rem;
+}
+
+
+
+.single-podcast #main .container a {
+	color:#ffffff;
+}
+
+.podcast-post-auxinfo {
+	margin: 0 auto;
+	color:#ffffff;
+	max-width:1100px;
+	padding: 0 20px;
+}
+
+.single-podcast #main .container .podcast-post-auxinfo a {
+	display:inline-block;
+	background:#ffffff;
+	color:#007BC3;
+	padding:.75rem;
+	text-transform:uppercase;
+	font-family:'PBSSans-Bold', sans-serif;
+	text-decoration:none;
+	font-size:.9rem;
+	margin-right:1rem;
+	border:solid #ffffff 2px;
+	transition:0.2s ease;
+}
+
+.single-podcast #main .container .podcast-post-auxinfo a:hover {
+	background:none;
+	color:#ffffff;
+	border:solid #ffffff 2px;
+
+}
+
+.single-podcast #main .container h1.entry-title {
+	font-size:3rem;
+}
+
+.single-podcast div.podcast-transcript .container {
+	max-width: 900px;
+	margin:0 auto;
+	padding: 60px 0;
+}
+
+.mejs-controls {
+	padding:20px !important;
+	height:80px !important;
+	position:relative !important;
+}
+
+.mejs-currenttime, .mejs-duration {
+	font-size:.9rem !important;
+}
+
+.powerpress_player {
+	height:80px !important;
+}
+
+.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body {
+	background: #000000 !important;
+}
+
+/************** END PODCAST PAGES STYLING **************/
+
+
+
+
+
+/************ COMMENCEMENT STYLES ************/
+
+
+.grad-embed iframe {
+	padding-top:1.5rem;
+	padding-bottom:1rem;
+}
+
+.grad-embed {
+	margin-bottom:2rem;
+}
+
+.grad-times {
+	max-width:800px;
+	margin:0 auto;
+}
+
+.grad-times h2 {
+	padding-bottom:1rem;
+}
+
+.grad-times h2, .grad-times h3 {
+	text-align:center;
+}
+
+.grad-times h3 {
+	padding-top:1rem;
+	padding-bottom:.5rem;
+}
+
+.grad-times h4 {
+	padding-bottom:.5rem;
+}
+
+.grad-times h4 {
+	font-family:'PBSSans-Bold', sans-serif;
+	border-bottom:dotted #500000 1px;
+	margin-bottom:.5rem;
+}
+
+.grad-times ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	padding-left:1rem;
+	border-left: solid 5px #d1d1d1;
+	padding-top:.5rem;
+	padding-bottom:.5rem;
+	margin-top:.5rem;
+	margin-bottom:1rem;
+	line-height:1.6;
+}
+
+.grad-times p {
+	padding:0;
+	margin:0;
+}
+
+.grad-times strong {
+	color:#500000;
+	font-weight:normal;
+	font-family:'PBSSans-Bold', sans-serif;
+}
+
+
+
+
+/************ END COMMENCEMENT STYLES ************/
+
+
+
+/************ COMM CAL STYLES ************/
+
+
+.featured-events h3 a {
+	font-style:normal;
+}
+
+
+.featured-events h3 {
+	text-transform:none;
+	font-family:'PBSSans', sans-serif;
+}
+
+.featured-events .cal_date .cal_date_day {
+	padding-left:.25rem;
+}
+
+.featured-events p:empty {
+	display:none;
+	visibility:hidden;
+}
+
+.featured-events .cal-date {
+	display:inline-block;
+	color:#676767;
+	font-size:.9rem;
+}
+
+
+/************ END COMM CAL STYLES ************/
+
+/************ STATION NEWS STYLING ************/
+
+
+.station-news .station-news-hero img {
+	width:100%;
+	height:100%;
+}
+
+.station-news .station-news-hero {
+		max-width:900px;
+	margin: 0 auto;
+	margin-top:4rem;
+	
+}
+
+
+
+.station-news div.entry-content {
+	max-width:900px;
+	margin: 0 auto;
+	padding: 0 15px;
+	padding-bottom:2rem;
+}
+
+.station-news div.entry-content p {
+	margin: 0;
+	padding-bottom: .5rem;
+}
+
+.station-news h1.entry-title {
+	margin-bottom:1rem;
+}
+
+.station-news .entry-content h2 {
+	color:#500000;
+	padding-bottom:.5rem;
+	padding-top:1rem;
+	
+}
+
+.recent-news {
+	max-width:1100px;
+	margin: 0 auto;
+	padding: 2rem;
+	border-top: solid #cccccc 1px;
+	margin-top:2rem;
+}
+
+.recent-news h2 {
+	color:#500000;
+	margin-bottom:.5rem;
+}
+
+.recent-news-group {
+	display:flex;
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+.recent-news-item {
+	width:33%;
+}
+
+.recent-news-item:not(:first-child) {
+	margin-left:1rem;
+}
+
+.recent-news-item img {
+    width:100%;
+	display:block;
+	margin-bottom:1rem;
+}
+
+/* RECENT NEWS MEDIA QUERY */
+@media only screen and (max-width: 600px) {
+	.recent-news-group {
+	display:flex;
+		flex-wrap:wrap;
+}
+	.recent-news-item:not(:first-child) {
+		margin:0;
+		padding-top:2rem;
+	}
+	
+.recent-news-item {
+	width:100%;
+}
+
+.recent-news-item {
+	margin:0;
+	padding:0 1rem;
+}
+
+}
+/* END RECENT NEWS MEDIA QUERY */
+
+
+.station-news div.entry-content a, .recent-news-item a {
+	font-weight:bold;
+	font-style:italic;
+}
+
+.recent-news-readmore {
+	font-style:italic;
+}
+
+
+/************ END STATION NEWS STYLING ************/
+
+
+/************ STATION NEWS TAXONOMY PAGE ************/
+
+.station-news-archive {
+	max-width:900px;
+	padding: 2rem;
+	margin: 0 auto;
+}
+
+.station-news-archive .post .entry-header .inner-page-header, .station-news-archive .post .entry-header .inner-page-header .container {
+	padding:0;
+}
+
+.station-news-archive img {
+	max-width:300px;
+}
+
+.station-news-archive h1 {
+	font-size: 36px;
+text-transform: uppercase;
+color: #500000;
+	padding-bottom: 2rem;
+}
+
+.station-news-archive h2 {
+	color:#500000;
+	padding-bottom:1rem;
+}
+
+.station-news-archive .entry-content p {
+	margin:0;
+	padding-bottom:.5rem;
+	line-height:1.6;
+}
+
+.station-news-archive .entry-content p:empty {
+	display:none;
+	visibility:hidden;
+}
+
+.station-news-archive .entry-content p a {
+	padding-top:.5rem;
+}
+
+.station-news-archive article.category-station-news {
+	display:flex;
+	padding-bottom:2rem;
+	border-bottom: dotted #d1d1d1 1px;
+	margin-bottom:2rem;
+}
+
+.station-news-archive article.category-station-news section {
+	padding-left:1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+	.station-news-archive article.category-station-news {
+		display:block;
+	}
+	
+	.station-news-archive article.category-station-news section {
+		padding-left:0rem;
+}
+	
+	.station-news-archive article.category-station-news aside {
+		padding-bottom:1rem;
+	}
+	
+	
+.station-news-archive img {
+	max-width:100%;
+}
+}
+
+.station-news-archive article.category-station-news section .entry-content a.more-link {
+	display:inline-block;
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+
+/************ END STATION NEWS TAXONOMY PAGE ************/
+
+
+/************ NEED TO MERGE WITH STYLES ************/
+div.wpforms-container-full .wpforms-form .wpforms-required-label {
+ color: #da080e !important;
+}

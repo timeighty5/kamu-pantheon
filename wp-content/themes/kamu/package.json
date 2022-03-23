@@ -1,0 +1,74 @@
+{
+	"name": "kamu",
+	"version": "2.1.0",
+	"private": true,
+	"description": "A new theme for KAMU by Inventive Group based on wd_s",
+	"author": "Inventive Group <https://www.kamutvfm.org/>",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Theme"
+	],
+	"homepage": "https://kamudev.wpengine.com/",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WebDevStudios/wd_s.git"
+	},
+	"bugs": {
+		"url": "https://github.com/WebDevStudios/wd_s/issues"
+	},
+	"engines": {
+		"node": ">=14",
+		"npm": ">=7"
+	},
+	"devDependencies": {
+		"@arkweid/lefthook": "^0.7.7",
+		"@wordpress/prettier-config": "^1.1.0",
+		"@wordpress/scripts": "^18.0.1",
+		"autoprefixer": "^10.3.7",
+		"browser-sync": "^2.27.5",
+		"clean-webpack-plugin": "^4.0.0",
+		"copy-webpack-plugin": "^9.0.1",
+		"cross-env": "^7.0.3",
+		"css-loader": "^6.2.0",
+		"css-minimizer-webpack-plugin": "^3.0.2",
+		"eslint-plugin-eslint-comments": "^3.2.0",
+		"eslint-webpack-plugin": "^3.0.1",
+		"imagemin-webpack-plugin": "^2.4.2",
+		"mini-css-extract-plugin": "^2.2.2",
+		"npm-run-all": "^4.1.5",
+		"postcss": "^8.3.9",
+		"postcss-loader": "^6.1.1",
+		"postcss-preset-env": "^6.7.0",
+		"prettier": "npm:wp-prettier@^2.2.1-beta-1",
+		"sass-loader": "^12.1.0",
+		"stylelint-config-prettier": "^8.0.2",
+		"stylelint-webpack-plugin": "^3.0.1",
+		"svg-spritemap-webpack-plugin": "git://github.com/cascornelissen/svg-spritemap-webpack-plugin.git#500280acbf4517319e57e951a44db524060dc105",
+		"tailwindcss": "^2.2.16",
+		"webpack-merge": "^5.8.0"
+	},
+	"scripts": {
+		"build": "cross-env NODE_ENV=production wp-scripts build --config webpack.prod.js",
+		"build:pot": "composer run-script pot",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"dev": "npm run watch",
+		"format": "run-p format:*",
+		"format:css": "npx prettier '**/*.scss' --write && npm run lint:css -- --fix",
+		"format:js": "wp-scripts format && npm run lint:js -- --fix",
+		"format:md": "npx markdownlint-cli . --fix",
+		"format:php": "composer run-script format",
+		"lint": "run-p lint:*",
+		"lint:css": "wp-scripts lint-style '**/*.scss'",
+		"lint:js": "wp-scripts lint-js",
+		"lint:md": "wp-scripts lint-md-docs",
+		"lint:php": "composer run-script lint",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"packages-update": "wp-scripts packages-update",
+		"postinstall": "composer install --quiet && npm run build",
+		"start": "cross-env NODE_ENV=development wp-scripts start",
+		"sync": "browser-sync start --https --proxy 'https://wdunderscores.test' --no-open --files 'build/*.*, **/*.html, **/*.php, !node_modules/**/*.html'",
+		"watch": "run-p start sync"
+	}
+}

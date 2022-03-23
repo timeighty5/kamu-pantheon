@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* Ryan Chadek CSS Document
+To be merged with main stylesheet
+*/
+
+
+/* Ad Placements */
+.navigation-menu .ad-placement a:focus,
+.navigation-menu .ad-placement a:focus-visible,
+.navigation-menu .ad-placement .cbb:focus,
+.navigation-menu .ad-placement .cbb:focus-visible {
+	outline: 2px dotted #500000;
+}
+
+
+/* A-Z Programs */
+.programs + p,
+.programs .container + p {
+	display: none;
+}
+
+.programs > .container > .section-column {
+	padding: 0;
+}
+
+.az-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 15px 15px;
+}
+
+.az-wrapper .alphabet-container {
+	/*flex-basis: 50%;*/
+	width: 100%;
+}
+
+.az-wrapper .alphabet-container ul {
+	list-style: none;
+	display: flex;
+    justify-content: space-between;
+	padding-left: 0;
+}
+
+.az-wrapper .alphabet-container ul li {
+	display: inline-block;
+    padding-right: 6px;
+}
+@media (max-width: 768px) {
+	.az-wrapper .alphabet-container ul li {
+	    padding-bottom: 10px;
+		padding-right: 15px;
+	}
+}
+
+.az-wrapper .alphabet-container ul li a {
+	font-style: normal;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000;
+}
+
+.az-wrapper .alphabet-container ul li a.active,
+.az-wrapper .alphabet-container ul li a:hover {
+	text-decoration: underline;
+	color: #007BC3;
+}
+
+.az-search-results {
+	padding-bottom: 15px;
+}
+
+.az-search-results span {
+	font-style: italic;
+	margin: 0.75rem 0 0.5rem 0;
+}
+
+.programs-az .program {
+	min-height: 400px;
+}
+
+.programs-az .program .program-title h3,
+.programs-az .program .program-title h3 a {
+	font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+	text-transform: none;
+	margin: 8px 0;
+	color: #500000;
+}
+
+.programs-az .program .program-link {
+	margin: 8px 0;
+}
+
+
+/* A-Z Programs Search Form */
+.az-wrapper .az-search-container {
+	width: 100%;
+}
+
+
+.az-wrapper .az-search-container .wpforms-form {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.az-wrapper .az-search-container .wpforms-form .wpforms-field label {
+	text-transform: none;
+    font-size: 15px;
+	position: relative;
+	color: #000;
+}
+
+.az-wrapper .az-search-container .wpforms-form .wpforms-field input {
+	font-size: 16px;
+	font-weight: 600;
+    font-family: 'PBSSans', sans-serif;
+	position: relative;
+	height: 44px;
+	background-color: #EAEAEA;
+	border: 0px solid #D7D7D7;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full.inline-fields .wpforms-form .wpforms-field {
+	padding-right: 0;
+	padding-bottom: 0;
+	flex-grow: 1;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full.inline-fields .wpforms-form .wpforms-submit-container {
+	top: 1.5px;
+    padding: 0;
+    flex-grow: 1;
+    min-width: 140px;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full.inline-fields .wpforms-form .wpforms-submit-container .wpforms-submit-spinner {
+	display: none!important;
+	width: 0!important;
+	height: 0!important;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form input[type=text] {
+	height: 44px;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form button[type=submit] {
+	font-size: 18px;
+	min-width: unset;
+    position: relative;
+	height: 44px;
+	background-color: #007BC3;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form button[type=submit]:hover {
+	border: 0;
+}
+
+.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form button[type=submit]::before {
+	font-family: 'Font Awesome 6 Pro';
+	content: '\f002';
+	width: 100px;
+	height: 100px;
+	position: relative;
+    left: -12px;
+	color: #fff;
+}
+@media (max-width: 600px) {
+	.az-wrapper .az-search-container .wpforms-form {
+		display: block;
+	}
+	.az-wrapper .az-search-container div.wpforms-container-full .wpforms-form button[type=submit] {
+		margin-top: 10px;
+	}
+}
+
+
+/* News & Events */
+.upcoming-events-list .lwcw ul.row li {
+	display: flex;
+}
+
+.upcoming-events-list .lwcw ul.row li .col-3.text-right {
+	text-align: left;
+}
+
+
+.bootstrap-wrapper .upcoming-events-list .lwcw ul.row li .col-lg-3 {
+	-webkit-flex: 0 0 40%;
+	-ms-flex: 0 0 40%;
+	flex: 0 0 40%;
+	max-width: 100px;
+}
+	
+.bootstrap-wrapper .upcoming-events-list .lwcw ul.row li .col-lg-9 {
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
+	flex: 0 0 auto;
+}

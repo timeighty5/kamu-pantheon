@@ -1,0 +1,548 @@
+@charset "utf-8";
+/* CSS Document */
+/* v1.1 */
+
+/*
+.tv-schedule-form {
+	margin-top: 40px;
+	background-color: #EAEAEA;
+}
+*/
+
+.tv-schedule-form .tv-current-filters {
+	display: none;
+}
+
+.tv-schedule-form .tv-schedule-date {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.tv-schedule-form .tv-schedule-date h2 {
+	font-size: 24px;
+	text-decoration: underline;
+}
+
+.tv-schedule-form .tv-schedule-date h2,
+.tv-schedule-form .tv-schedule-date i {
+	color: #500000;
+}
+
+.tv-schedule-form .tv-schedule-date i {
+	font-weight: 700;
+}
+
+.tv-schedule-form .tv-schedule-date .fa-calendar-alt {
+	font-size: 20px;
+	position: relative;
+	top: -3px;
+	padding-left: 10px;
+}
+
+.tv-schedule-form .tv-schedule-date .fa-chevron-left {
+	padding-right: 16px;
+}
+
+.tv-schedule-form .tv-schedule-date .fa-chevron-right {
+	padding-left: 16px;
+}
+
+.tv-schedule-form .tv-schedule-filters {
+	padding: 10px 20px;
+	background: #F6F6F6;
+}
+
+.tv-schedule-form .tv-schedule-filters .wpforms-container {
+	margin-bottom: 0;
+}
+
+.tv-schedule-form .tv-schedule-filters div.wpforms-container-full.inline-fields .wpforms-form .wpforms-field-container {
+	width: 100%;
+}
+
+.tv-schedule-form .tv-schedule-filters div.wpforms-container-full.inline-fields .wpforms-form .wpforms-submit-container {
+	display: none;
+}
+
+.tv-schedule-form div.wpforms-container-full.inline-fields .wpforms-form .wpforms-field {
+	display: block;
+	width: 100%;
+    padding-right: 0;
+}
+
+/*
+.tv-schedule-form div.wpforms-container-full .wpforms-form .wpforms-field-label {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #500000;
+}
+*/
+
+.tv-schedule-form div.wpforms-container-full .wpforms-form .wpforms-field-label {
+	font-size: 16px;    
+	font-weight: 700 !important;
+    font-style: normal !important;
+    text-transform: none !important;
+}
+
+.tv-schedule-form div.wpforms-container-full .wpforms-form select,
+.tv-schedule-form div.wpforms-container-full .wpforms-form input[type=text] {
+	height: 54px;
+}
+
+.tv-schedule-form div.wpforms-container-full .wpforms-form select {
+	font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+	color: #fff;
+	border: 2px solid #007BC3;
+	background-color: #007BC3;
+	-webkit-appearance:none;
+}
+
+
+
+.tv-schedule-form div.wpforms-container-full .wpforms-form select>option {
+	text-transform: uppercase;
+}
+
+.tv-schedule-search {
+	margin-top: 20px;
+}
+
+.tv-schedule-search div.wpforms-container-full form {
+	display: flex;	
+	align-items: flex-end;
+}
+
+.tv-schedule-search div.wpforms-container-full.inline-fields .wpforms-form .wpforms-field-container {
+	flex-grow: 2;
+}
+
+.tv-schedule-search div.wpforms-container-full .wpforms-form .wpforms-field.tv-schedule-search-field {
+	padding: 0;
+}
+
+.tv-schedule-search input {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.tv-schedule-form div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+	width: auto !important;
+	flex-grow: 1;
+}
+
+.tv-schedule-form div.wpforms-container-full.inline-fields .wpforms-form .wpforms-submit {
+	font-weight: 700;
+	text-align: left;
+    text-transform: uppercase;
+	padding: 15px 0px;
+	height: 52px;
+	min-width: auto;
+    border: 2px solid #007BC3;
+    color: #fff;
+    text-align: center;  
+}
+
+.tv-schedule-form div.wpforms-container-full.inline-fields .wpforms-form button[type=submit]:focus {
+	background: #0095EB;
+}
+
+.tv-schedule-form div.wpforms-container-full .wpforms-form button[type=submit]:after {
+    content: '\f002'; /* Unicode for icon, be sure to keep the quotes and forward slash */
+    font-family: "Font Awesome 6 Pro";
+    /*margin-left: 10px !important;*/ /* Distance between icon and button text */
+}
+
+.tv-schedule-form .tv-download-schedule {
+	padding: 30px 0 20px;
+}
+
+.tv-schedule-form .tv-download-schedule a,
+.tv-schedule-form .tv-download-schedule i {
+	color: #007BC3;
+}
+
+.tv-schedule-form .tv-download-schedule .fa-download {
+	padding-left: 6px;
+}
+
+.tv-schedule-form #tv-schedule-modal {
+	display: none;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+	.tv-schedule-form div.wpforms-container-full .wpforms-form .wpforms-field-label {
+		font-size: 13px;
+    	line-height: 18px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.tv-schedule-form div.wpforms-container-full .wpforms-form .wpforms-one-third {
+		margin-left: 0;
+	}
+	
+	.tv-schedule-form div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+		padding-top: 10px;
+	}
+	
+	.tv-schedule-form div.wpforms-container-full.inline-fields .wpforms-form .wpforms-submit {
+		text-align: center;
+	}
+}
+
+
+/* Find A Show */
+.find-a-show.tv-schedule-search {
+	margin-top: 0px;
+}
+
+.find-a-show .tv-schedule-form div.wpforms-container-full .wpforms-form .wpforms-field-label {
+	border: 0;
+    clip: rect(1px,1px,1px,1px);
+    -webkit-clip-path: inset(50%);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal!important;
+}
+
+.find-a-show .series-wrapper {
+	padding: 5px 15px 10px;
+	margin-top: 60px;
+	background: #007BC3;
+}
+
+.find-a-show .series-wrapper:first-of-type {
+	margin-top: 20px;
+}
+
+.find-a-show .series-wrapper h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+	text-transform: none;
+	color: #fff;
+}
+
+.find-a-show .series-airdates {
+	background: #F0F0F0;
+}
+
+.find-a-show .series-airdates .btn {
+    font-style: normal;
+	text-align: center;
+	width: 100%;
+}
+
+
+/* Airdates */
+#airdates .series-results {
+	margin: 30px 0 20px;
+}
+
+#airdates .series-wrapper {
+	display: none;
+}
+
+#airdates .series-results .series-title {
+	display: inline;
+}
+
+#airdates .series-airdates {
+	display: none;
+}
+
+#airdates .search-again {
+	margin: 40px 0 20px;
+}
+
+#airdates .search-again p {
+	margin-bottom: 0;
+}
+
+#airdates .search-again .tv-schedule-search {
+	margin-top: 0;
+}
+
+
+
+/* TV Params Output */
+
+.current-tv-params .search-results {
+	display: flex;
+	align-items: center;
+	padding-left: 0 !important;
+}
+
+.current-tv-params .clear-results {
+	text-align: right;
+	padding-right: 0 !important;
+}
+
+.current-tv-params .clear-results a {
+	font-style: normal;
+}
+
+.current-tv-params ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+    padding-left: 12px;
+}
+
+.current-tv-params ul li {
+	margin-right: 10px;
+}
+
+.current-tv-params ul li i {
+	margin: 0 6px;
+}
+
+
+
+
+/* TV Schedule Output */
+.current-tv-schedule .datetime-now,
+.current-tv-schedule .datetime-current-time,
+.current-tv-schedule .datetime-begin-primetime,
+.current-tv-schedule .datetime-end-primetime {
+	display: none;
+}
+
+.current-tv-schedule .episode-wrapper {
+	padding: 20px 0;
+	border-bottom: 1px dotted #B4B4B4;
+	border-right-width: 8px;
+	border-right-style: solid;
+}
+
+.current-tv-schedule .episode-wrapper .channel-name h4 {
+	font-size: 18px;
+	font-family: 'PBSSans-Bold', sans-serif;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+.current-tv-schedule .episode-wrapper.channel-kamu {
+	border-color: #6997B4;
+}
+
+.current-tv-schedule .episode-wrapper.channel-kamu .channel-name h4 {
+	color: #6997B4;
+}
+
+.current-tv-schedule .episode-wrapper.channel-create-tv {
+	border-color: #76617C;
+}
+
+.current-tv-schedule .episode-wrapper.channel-create-tv .channel-name h4 {
+	color: #76617C;
+}
+
+.current-tv-schedule .episode-wrapper.channel-pbs-kids {
+	border-color: #85AD63;
+}
+
+.current-tv-schedule .episode-wrapper.channel-pbs-kids .channel-name h4 {
+	color: #85AD63;
+}
+
+.current-tv-schedule .series-title {
+	text-decoration: none;
+	display: flex;
+    align-items: center;
+}
+
+.current-tv-schedule .series-title h3 {
+	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
+    text-transform: capitalize;
+	color: #007BC3;
+	padding-bottom: 4px;
+	border-bottom: 2px solid #007BC3;
+}
+
+/*
+.current-tv-schedule .series-title::after {
+	content: ' ';
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	bottom: -4px;
+	background-color: #007BC3;
+}*/
+
+
+/*
+.current-tv-schedule .series-title > i {
+	margin-right: 10px;
+}
+
+.current-tv-schedule .series-title > i {
+	transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+}
+
+.current-tv-schedule .series-title > i.episode-icon::before {
+	content: '\f068';
+	color: #007BC3;
+}
+
+.current-tv-schedule .episode-header.ui-accordion-header-collapsed .series-title > i.episode-icon::before {
+	content: '\f067';
+}
+
+.current-tv-schedule .ui-accordion .ui-accordion-header.episode-header .container {
+	align-items: center;
+}
+*/
+
+.current-tv-schedule .episode-details {
+	overflow: hidden;
+	padding-top: 0;
+}
+
+.current-tv-schedule .episode-details p {
+	font-family: 'PBSSans', sans-serif;
+}
+
+.current-tv-schedule .episode-title {
+	margin-top: 10px;
+}
+
+.current-tv-schedule .episode-title mark {
+	background: #D0DDE5;
+}
+
+
+.current-tv-schedule .episode-title h4 {
+	font-size: 18px;
+	font-family: 'PBSSans-Bold', sans-serif;
+	text-transform: uppercase;
+	padding-top: 6px;
+	color: #3B3B3B;
+}
+
+.episode-airdate .year,
+.episode-airdate .formatted-airtime,
+.episode-airdate .formatted-airdate {
+	display: none;
+}
+
+.current-tv-schedule .episode-airdate-details {
+	padding: 10px 0;
+}
+
+.current-tv-schedule .episode-desc {
+	margin: 0;
+	padding: 0;
+}
+
+.current-tv-schedule .episode-desc a {
+	font-style: normal;
+}
+
+.current-tv-schedule .episode-desc h5 {
+	font-size: 18px;
+	font-family: 'PBSSans-Bold', sans-serif;
+	text-decoration: underline;
+	padding: 0 0 10px;
+	color: #007BC3;
+}
+
+
+.current-tv-schedule .back-to-today {
+	margin: 40px auto 20px;
+}
+
+.current-tv-schedule .back-to-today .container {
+	text-align: center;
+}
+
+.current-tv-schedule .back-to-today a {
+	font-style: normal;
+}
+
+.current-tv-schedule .back-to-today a:focus {
+	color: #fff;
+}
+
+
+/* Override jQuery UI Default Styles */
+.current-tv-schedule .ui-state-default, 
+.current-tv-schedule .ui-widget-content .ui-state-default, 
+.current-tv-schedule .ui-widget-header .ui-state-default, 
+.current-tv-schedule .ui-button, 
+html .current-tv-schedule .ui-button.ui-state-disabled:hover, 
+html .current-tv-schedule .ui-button.ui-state-disabled:active {
+	background: transparent;
+	border: 0;
+}
+
+.current-tv-schedule .ui-state-active, 
+.current-tv-schedule .ui-widget-content .ui-state-active, 
+.current-tv-schedule .ui-widget-header .ui-state-active, 
+.current-tv-schedule a.ui-button:active, 
+.current-tv-schedule .ui-button:active, 
+.current-tv-schedule .ui-button.ui-state-active:hover {
+	border: 0;
+    background: transparent;
+}
+
+.current-tv-schedule .ui-accordion .ui-accordion-header .ui-icon {
+	display: none;
+}
+
+.current-tv-schedule .ui-widget-content {
+	border: 0;
+	padding-left: 0;
+}
+
+.current-tv-schedule .episode-desc .ui-state-active, 
+.current-tv-schedule .episode-desc .ui-widget-content .ui-state-active, 
+.current-tv-schedule .episode-desc .ui-widget-header .ui-state-active, 
+.current-tv-schedule .episode-desc a.ui-button:active, 
+.current-tv-schedule .episode-desc .ui-button:active, 
+.current-tv-schedule .episode-desc .ui-button.ui-state-active:hover {
+	color: #007BC3;
+}
+
+.current-tv-schedule .episode-desc.ui-accordion .ui-accordion-content {
+	padding: 0;
+}
+
+
+
+
+/* What's On Tonight */
+.whats-on-tonight li {
+	display: flex;
+}
+
+.whats-on-tonight li .episode-airtime {
+	flex-basis: 27%;
+	min-width: 80px;
+}
+
+.whats-on-tonight li .series-title {
+	flex-basis: 73%;
+}
+
+
+/* Print Styles */
+@media only print {
+	.current-tv-schedule .series-title h3 {
+		text-transform: uppercase;
+	}
+}

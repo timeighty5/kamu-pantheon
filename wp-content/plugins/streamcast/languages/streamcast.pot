@@ -1,0 +1,1491 @@
+# Copyright (C) 2020 StreamCast
+# This file is distributed under the same license as the StreamCast package.
+msgid ""
+msgstr ""
+"Project-Id-Version: StreamCast 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/streamcast\n"
+"POT-Creation-Date: 2020-07-12 16:34:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/codestar-framework/classes/comment-metabox.class.php:198
+#: admin/codestar-framework/classes/metabox.class.php:259
+#: admin/codestar-framework/classes/options.class.php:678
+msgid "No option provided by developer."
+msgstr ""
+
+#: admin/codestar-framework/classes/comment-metabox.class.php:217
+#: admin/codestar-framework/classes/metabox.class.php:278
+msgid "Restore"
+msgstr ""
+
+#: admin/codestar-framework/classes/comment-metabox.class.php:218
+#: admin/codestar-framework/classes/metabox.class.php:279
+msgid "update post for restore "
+msgstr ""
+
+#: admin/codestar-framework/classes/comment-metabox.class.php:218
+#: admin/codestar-framework/classes/metabox.class.php:279
+msgid "Cancel"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:227
+msgid "Error while saving."
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:289
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:301
+msgid "Default options restored."
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:315
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:386
+msgid "Settings saved."
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:569
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:571
+msgid "show all options"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:573
+msgid "Search option(s)"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:576
+#: admin/codestar-framework/classes/options.class.php:703
+msgid "Save"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:576
+#: admin/codestar-framework/classes/options.class.php:703
+msgid "Saving..."
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:577
+#: admin/codestar-framework/classes/options.class.php:704
+msgid "Reset Section"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:577
+#: admin/codestar-framework/classes/options.class.php:704
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:578
+#: admin/codestar-framework/classes/options.class.php:705
+#: admin/codestar-framework/fields/backup/backup.php:34
+msgid "Reset All"
+msgstr ""
+
+#: admin/codestar-framework/classes/options.class.php:578
+#: admin/codestar-framework/classes/options.class.php:705
+msgid "Are you sure to reset all options?"
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:434
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:435
+msgid "Restoring options."
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:436
+msgid "Importing options."
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:439
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:440
+msgid "Searching..."
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:441
+msgid "No results match"
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:512
+msgid "Ooops! This field type (%s) can not be used here, yet."
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:582
+msgid "This field class is not available!"
+msgstr ""
+
+#: admin/codestar-framework/classes/setup.class.php:586
+msgid "This type is not found!"
+msgstr ""
+
+#: admin/codestar-framework/classes/shortcoder.class.php:246
+msgid "Add one more"
+msgstr ""
+
+#: admin/codestar-framework/classes/shortcoder.class.php:283
+#: admin/codestar-framework/functions/actions.php:16
+#: admin/codestar-framework/functions/actions.php:68
+#: admin/codestar-framework/functions/actions.php:106
+#: admin/codestar-framework/functions/actions.php:141
+#: admin/codestar-framework/functions/actions.php:170
+msgid "Error: Nonce verification has failed. Please try again."
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:35
+msgid "No background selected"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:66
+#: admin/codestar-framework/fields/date/date.php:31
+msgid "From"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:84
+#: admin/codestar-framework/fields/date/date.php:32
+msgid "To"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:102
+msgid "Direction"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:108
+msgid "Gradient Direction"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:109
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:110
+msgid "&#8658; left to right"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:111
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:112
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:155
+msgid "Background Position"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:156
+msgid "Left Top"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:157
+msgid "Left Center"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:158
+msgid "Left Bottom"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:159
+msgid "Center Top"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:160
+#: premium-files/blocks/inc/custom/inc/fields/background.php:102
+msgid "Center Center"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:161
+msgid "Center Bottom"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:162
+msgid "Right Top"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:163
+msgid "Right Center"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:164
+msgid "Right Bottom"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:178
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:179
+msgid "Repeat"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:180
+#: premium-files/blocks/inc/custom/inc/fields/background.php:80
+msgid "No Repeat"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:181
+#: premium-files/blocks/inc/custom/inc/fields/background.php:82
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:182
+#: premium-files/blocks/inc/custom/inc/fields/background.php:83
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:196
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:197
+#: premium-files/blocks/inc/custom/inc/fields/background.php:121
+msgid "Scroll"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:198
+#: premium-files/blocks/inc/custom/inc/fields/background.php:120
+msgid "Fixed"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:212
+msgid "Background Size"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:213
+#: premium-files/blocks/inc/custom/inc/fields/background.php:137
+msgid "Cover"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:214
+#: premium-files/blocks/inc/custom/inc/fields/background.php:138
+msgid "Contain"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:228
+msgid "Background Origin"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:229
+#: admin/codestar-framework/fields/background/background.php:247
+msgid "Padding Box"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:230
+#: admin/codestar-framework/fields/background/background.php:246
+msgid "Border Box"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:231
+#: admin/codestar-framework/fields/background/background.php:248
+msgid "Content Box"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:245
+msgid "Background Clip"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:262
+msgid "Background Blend Mode"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:263
+#: admin/codestar-framework/fields/link_color/link_color.php:36
+#: admin/codestar-framework/fields/typography/typography.php:175
+msgid "Normal"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:264
+msgid "Multiply"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:265
+msgid "Screen"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:266
+msgid "Overlay"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:267
+msgid "Darken"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:268
+msgid "Lighten"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:269
+msgid "Color Dodge"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:270
+msgid "Saturation"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:271
+msgid "Color"
+msgstr ""
+
+#: admin/codestar-framework/fields/background/background.php:272
+msgid "Luminosity"
+msgstr ""
+
+#: admin/codestar-framework/fields/backup/backup.php:26
+msgid "Import"
+msgstr ""
+
+#: admin/codestar-framework/fields/backup/backup.php:27
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: admin/codestar-framework/fields/backup/backup.php:31
+msgid "Export and Download Backup"
+msgstr ""
+
+#: admin/codestar-framework/fields/backup/backup.php:35
+msgid "Please be sure for reset all of options."
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:25
+#: admin/codestar-framework/fields/spacing/spacing.php:25
+msgid "top"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:26
+#: admin/codestar-framework/fields/spacing/spacing.php:26
+msgid "right"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:27
+#: admin/codestar-framework/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:28
+#: admin/codestar-framework/fields/spacing/spacing.php:28
+msgid "left"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:29
+#: admin/codestar-framework/fields/spacing/spacing.php:29
+msgid "all"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:51
+#: admin/codestar-framework/fields/typography/typography.php:203
+msgid "Solid"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:52
+#: admin/codestar-framework/fields/typography/typography.php:206
+msgid "Dashed"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:53
+#: admin/codestar-framework/fields/typography/typography.php:205
+msgid "Dotted"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:54
+#: admin/codestar-framework/fields/typography/typography.php:204
+msgid "Double"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:55
+msgid "Inset"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:56
+msgid "Outset"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:57
+msgid "Groove"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:58
+msgid "ridge"
+msgstr ""
+
+#: admin/codestar-framework/fields/border/border.php:59
+#: admin/codestar-framework/fields/typography/typography.php:188
+#: admin/codestar-framework/fields/typography/typography.php:202
+#: premium-files/blocks/inc/custom/inc/fields/select.php:92
+msgid "None"
+msgstr ""
+
+#: admin/codestar-framework/fields/button_set/button_set.php:56
+#: admin/codestar-framework/fields/checkbox/checkbox.php:63
+#: admin/codestar-framework/fields/radio/radio.php:62
+#: admin/codestar-framework/fields/select/select.php:113
+msgid "No data provided for this option type."
+msgstr ""
+
+#: admin/codestar-framework/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr ""
+
+#: admin/codestar-framework/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr ""
+
+#: admin/codestar-framework/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr ""
+
+#: admin/codestar-framework/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/codestar-framework/fields/gallery/gallery.php:22
+msgid "Clear"
+msgstr ""
+
+#: admin/codestar-framework/fields/group/group.php:23
+msgid "Add New"
+msgstr ""
+
+#: admin/codestar-framework/fields/group/group.php:35
+#: admin/codestar-framework/fields/repeater/repeater.php:30
+msgid "Error: Nested field id can not be same with another nested field id."
+msgstr ""
+
+#: admin/codestar-framework/fields/group/group.php:46
+#: admin/codestar-framework/fields/group/group.php:87
+#: admin/codestar-framework/fields/repeater/repeater.php:51
+#: admin/codestar-framework/fields/repeater/repeater.php:82
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: admin/codestar-framework/fields/group/group.php:122
+#: admin/codestar-framework/fields/repeater/repeater.php:96
+msgid "You can not add more than"
+msgstr ""
+
+#: admin/codestar-framework/fields/group/group.php:123
+#: admin/codestar-framework/fields/repeater/repeater.php:97
+msgid "You can not remove less than"
+msgstr ""
+
+#: admin/codestar-framework/fields/icon/icon.php:20
+#: admin/codestar-framework/functions/actions.php:209
+msgid "Add Icon"
+msgstr ""
+
+#: admin/codestar-framework/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr ""
+
+#: admin/codestar-framework/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr ""
+
+#: admin/codestar-framework/fields/link_color/link_color.php:38
+msgid "Active"
+msgstr ""
+
+#: admin/codestar-framework/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr ""
+
+#: admin/codestar-framework/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr ""
+
+#: admin/codestar-framework/fields/map/map.php:23
+msgid "Search your address..."
+msgstr ""
+
+#: admin/codestar-framework/fields/map/map.php:24
+msgid "Latitude"
+msgstr ""
+
+#: admin/codestar-framework/fields/map/map.php:25
+msgid "Longitude"
+msgstr ""
+
+#: admin/codestar-framework/fields/media/media.php:23
+#: admin/codestar-framework/fields/upload/upload.php:21
+msgid "Upload"
+msgstr ""
+
+#: admin/codestar-framework/fields/media/media.php:24
+#: admin/codestar-framework/fields/upload/upload.php:22
+#: admin/codestar-framework/metabox-free.php:196
+#: premium-files/blocks/inc/custom/inc/fields/file-input.php:45
+#: premium-files/metabox-pro.php:190
+msgid "Remove"
+msgstr ""
+
+#: admin/codestar-framework/fields/media/media.php:57
+msgid "No media selected"
+msgstr ""
+
+#: admin/codestar-framework/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr ""
+
+#: admin/codestar-framework/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr ""
+
+#: admin/codestar-framework/fields/switcher/switcher.php:20
+#: premium-files/blocks/inc/custom/inc/fields/switch.php:93
+msgid "On"
+msgstr ""
+
+#: admin/codestar-framework/fields/switcher/switcher.php:21
+#: premium-files/blocks/inc/custom/inc/fields/switch.php:94
+msgid "Off"
+msgstr ""
+
+#: admin/codestar-framework/fields/textarea/textarea.php:37
+msgid "Add Shortcode"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:85
+msgid "Font Family"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:86
+msgid "Select a font"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:94
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:108
+#: admin/codestar-framework/fields/typography/typography.php:121
+#: admin/codestar-framework/fields/typography/typography.php:134
+#: admin/codestar-framework/fields/typography/typography.php:149
+#: admin/codestar-framework/fields/typography/typography.php:165
+#: admin/codestar-framework/fields/typography/typography.php:178
+#: admin/codestar-framework/fields/typography/typography.php:192
+#: admin/codestar-framework/fields/typography/typography.php:210
+msgid "Default"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:119
+msgid "Font Style"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:133
+#: admin/codestar-framework/fields/typography/typography.php:134
+msgid "Load Extra Styles"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:147
+msgid "Subset"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:157
+msgid "Text Align"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:159
+#: premium-files/blocks/inc/custom/inc/fields/background.php:84
+#: premium-files/blocks/inc/custom/inc/fields/background.php:122
+#: premium-files/blocks/inc/custom/inc/fields/background.php:136
+msgid "Inherit"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:160
+msgid "Left"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:161
+msgid "Center"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:162
+msgid "Right"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:163
+msgid "Justify"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:164
+msgid "Initial"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:173
+msgid "Font Variant"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:176
+msgid "Small Caps"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:177
+msgid "All Small Caps"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:186
+msgid "Text Transform"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:189
+msgid "Capitalize"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:190
+msgid "Uppercase"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:191
+msgid "Lowercase"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:200
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:207
+msgid "Wavy"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:208
+msgid "Overline"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:209
+msgid "Line-through"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:222
+msgid "Font Size"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:234
+msgid "Line Height"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:246
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:258
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:273
+msgid "Font Color"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:284
+msgid "Custom Style"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:351
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:357
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: admin/codestar-framework/fields/typography/typography.php:377
+msgid "Google Web Fonts"
+msgstr ""
+
+#: admin/codestar-framework/functions/actions.php:41
+msgid "No data provided by developer"
+msgstr ""
+
+#: admin/codestar-framework/functions/actions.php:72
+#: admin/codestar-framework/functions/actions.php:110
+msgid "Error: Options unique id could not valid."
+msgstr ""
+
+#: admin/codestar-framework/functions/actions.php:114
+msgid "Error: Import data could not valid."
+msgstr ""
+
+#: admin/codestar-framework/functions/actions.php:174
+msgid "Error: Missing request arguments."
+msgstr ""
+
+#: admin/codestar-framework/functions/actions.php:180
+msgid "You do not have required permissions to access."
+msgstr ""
+
+#: admin/codestar-framework/functions/actions.php:213
+msgid "Search a Icon..."
+msgstr ""
+
+#: admin/codestar-framework/functions/validate.php:14
+#: admin/codestar-framework/functions/validate.php:86
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: admin/codestar-framework/functions/validate.php:32
+#: admin/codestar-framework/functions/validate.php:106
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: admin/codestar-framework/functions/validate.php:50
+#: admin/codestar-framework/functions/validate.php:126
+msgid "Error! This field is required!"
+msgstr ""
+
+#: admin/codestar-framework/functions/validate.php:68
+#: admin/codestar-framework/functions/validate.php:146
+msgid "Please write a valid url!"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:33
+#: premium-files/metabox-pro.php:28
+msgid "You must choose radio player type first to get related settings fields."
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:50
+#: premium-files/metabox-pro.php:45
+msgid "Stream URL*"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:51
+#: premium-files/metabox-pro.php:46
+msgid "Add or Upload File"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:52
+#: premium-files/metabox-pro.php:47
+msgid "Remove Mp3"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:61
+#: premium-files/metabox-pro.php:55
+msgid "Station Name*"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:68
+#: premium-files/metabox-pro.php:62
+msgid "Welcome Message*"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:73
+#: premium-files/metabox-pro.php:68
+msgid "Skin"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:171
+#: admin/codestar-framework/metabox-free.php:204
+#: premium-files/metabox-pro.php:165 premium-files/metabox-pro.php:197
+msgid "Auto Play"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:182
+#: admin/codestar-framework/metabox-free.php:212
+#: premium-files/metabox-pro.php:175 premium-files/metabox-pro.php:204
+msgid "Initial Volume"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:194
+#: premium-files/metabox-pro.php:188
+msgid "ArtWork"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:195
+#: premium-files/metabox-pro.php:189
+msgid "Add or Upload Artwork Image"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:198
+#: premium-files/metabox-pro.php:191
+msgid "94x94 px photo is the standard artwork size, accepted file type .png, .jpeg, .jpg "
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:224
+#: premium-files/metabox-pro.php:214
+msgid "Show Time"
+msgstr ""
+
+#: admin/codestar-framework/metabox-free.php:232
+#: premium-files/metabox-pro.php:221
+msgid "Background color"
+msgstr ""
+
+#: inc/cpt.php:10 inc/cpt.php:11
+msgid "StreamCast"
+msgstr ""
+
+#: inc/cpt.php:12
+msgid "Add New Radio Player"
+msgstr ""
+
+#: inc/cpt.php:13
+msgid "Add New Radio"
+msgstr ""
+
+#: inc/cpt.php:14
+msgid "Edit Radio"
+msgstr ""
+
+#: inc/cpt.php:15
+msgid "New Radio"
+msgstr ""
+
+#: inc/cpt.php:16
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/cpt.php:17
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/cpt.php:18
+msgid "Sorry, we couldn't find the Portfolio you are looking for."
+msgstr ""
+
+#: inc/cpt.php:38
+msgid "Updated "
+msgstr ""
+
+#: inc/features.php:29
+msgid "If you like <strong>StreamCast Radio Player</strong> plugin please leave us a <a href=\"%s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. Your Review is very important to us as it helps us to grow more. "
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/about.php:54
+msgid "About"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/about.php:66
+#: premium-files/blocks/inc/custom/inc/about/about.php:67
+msgid "Meta Box"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/about.php:82
+msgid "Welcome to Meta Box"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/about.php:83
+msgid "Dashboard"
+msgstr ""
+
+#. Translators: %1$s - link to review form.
+
+#: premium-files/blocks/inc/custom/inc/about/about.php:153
+msgid "Please rate <strong>Meta Box</strong> <a href=\"%1$s\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%1$s\" target=\"_blank\">WordPress.org</a> to help us spread the word. Thank you from the Meta Box team!"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:11
+msgid "Extend custom fields in WordPress well beyond what others would ever consider ordinary!"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:12
+msgid "Save over 80% with our extensions bundles."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:12
+msgid "View Bundles"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:20
+msgid "Create and manage custom post types easily in WordPress with an easy-to-use interface."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:24
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:120
+msgid "Free Download"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:32
+msgid "Drag and drop your custom fields into place without a single line of code."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:36
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:48
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:60
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:72
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:84
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:96
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:108
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:23
+msgid "Learn More"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:44
+msgid "Create repeatable groups of custom fields for better appearance and structure."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:56
+msgid "Create a powerful settings page for your theme, plugin or website."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:68
+msgid "Control the visibility of meta boxes and fields or even HTML elements with ease."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:80
+msgid "Create register, login and edit user profile forms in the frontend. Embed everywhere with shortcodes."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:92
+msgid "Create frontend forms for users to submit custom content. Embed everywhere with shortcode."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:104
+msgid "Save custom fields data to custom table. Reduce database size and increase performance."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:116
+msgid "Create many-to-many relationships between posts, terms and users."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/extensions.php:124
+msgid "View all extensions"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:12
+msgid "Getting Started With Online Generator"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:13
+msgid "The fastest way to getting started with Meta Box is use our online generator to generate meta boxes with custom fields. It provides a friendly UI for you to create meta boxes and custom fields just by drag and drop fields."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:15
+msgid "online generator"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:17
+msgid "Go to Online Generator"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:21
+msgid "Understand The Basics"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:22
+msgid "Meta Box doesn't have any admin page for configuration or settings. Instead of that, it provides a very powerful API to speed up the process of creating meta boxes and custom fields. It might take you a little time at first, but then you'll love the way it work because it helps you do and customize almost everything."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:25
+#: premium-files/blocks/inc/custom/inc/about/sections/tabs.php:12
+#: premium-files/blocks/inc/custom/inc/about/sections/welcome.php:22
+msgid "Extensions"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:26
+msgid "Wanna see more features that transform your WordPress website into a powerful CMS? Check out some extensions below:"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:28
+msgid "Meta Box Group"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:29
+msgid "Meta Box Conditional Logic"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:30
+msgid "MB Settings Page"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:31
+msgid "MB Term Meta"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/getting-started.php:33
+msgid "More Extensions"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/newsletter.php:11
+msgid "Meta Box Newsletter"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/newsletter.php:13
+msgid "Want to learn how to use Meta Box to its full potential? Sign up to get valuable tips and resources. We will never spam you."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/newsletter.php:15
+msgid "Subscribe"
+msgstr ""
+
+#. Translators: %s - link to documentation.
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:18
+msgid "Still need help with Meta Box? We offer excellent support for you. But don't forget to check our <a href=\"%s\">documentation</a> first."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:23
+msgid "Free Support"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:24
+msgid "If you have any question about how to use the plugin, please open a new topic on WordPress.org support forum or open a new issue on Github (preferable). We will try to answer as soon as we can."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:25
+msgid "Go to Github"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:26
+msgid "Go to WordPress.org"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:30
+msgid "Premium Support"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:31
+msgid "For users that have bought premium extensions, the support is provided in the Meta Box Support forum. Any question will be answered with technical details within 24 hours."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/support.php:32
+msgid "Go to support forum"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/tabs.php:10
+msgid "Getting Started"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/tabs.php:13
+#: premium-files/blocks/inc/custom/inc/about/sections/welcome.php:23
+msgid "Support"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:10
+msgid "Upgrade to Meta Box PRO"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:11
+msgid "Please upgrade to the PRO plan to unlock more awesome features."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:13
+msgid "Create custom fields with drag-n-drop interface - no coding knowledge required!"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:14
+msgid "Add custom fields to taxonomies or user profile."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:15
+msgid "Create custom settings pages."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:16
+msgid "Create frontend submission forms."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:17
+msgid "Save custom fields in custom tables."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:18
+msgid "And much more!"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/upgrade.php:20
+msgid "Get Meta Box PRO now"
+msgstr ""
+
+#. Translators: %s - Plugin name.
+
+#: premium-files/blocks/inc/custom/inc/about/sections/welcome.php:15
+msgid "Welcome to %s"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/welcome.php:18
+msgid "Meta Box is a free Gutenberg and GDPR-compatible WordPress custom fields plugin and framework that makes quick work of customizing a website with—you guessed it—meta boxes and custom fields in WordPress. Follow the instruction below to get started!"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/about/sections/welcome.php:21
+msgid "Documentation"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/core.php:38
+msgid "Docs"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/core.php:39
+msgid "Go Pro"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/field.php:354
+msgid "+ Add more"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/autocomplete.php:23
+#: premium-files/blocks/inc/custom/inc/fields/autocomplete.php:85
+#: premium-files/blocks/inc/custom/inc/fields/autocomplete.php:97
+msgid "Delete"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:64
+msgid "Background Image"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:78
+msgid "-- Background Repeat --"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:81
+msgid "Repeat All"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:96
+msgid "-- Background Position --"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:98
+msgid "Top Left"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:99
+msgid "Top Center"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:100
+msgid "Top Right"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:101
+msgid "Center Left"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:103
+msgid "Center Right"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:104
+msgid "Bottom Left"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:105
+msgid "Bottom Center"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:106
+msgid "Bottom Right"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:118
+msgid "-- Background Attachment --"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/background.php:134
+msgid "-- Background Size --"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/button.php:34
+msgid "Click me"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/checkbox.php:53
+msgid "Yes"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/checkbox.php:53
+msgid "No"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/file-input.php:23
+msgid "Select File"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/file-input.php:43
+#: premium-files/blocks/inc/custom/inc/fields/select.php:92
+msgid "Select"
+msgstr ""
+
+#. Translators: %d is the number of files in singular form.
+
+#: premium-files/blocks/inc/custom/inc/fields/file.php:24
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#. Translators: %d is the number of files in plural form.
+
+#: premium-files/blocks/inc/custom/inc/fields/file.php:26
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/file.php:63
+msgid "Error: Invalid file"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/file.php:77
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/file.php:90
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/file.php:171
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/file.php:172
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/input-list.php:92
+msgid "Toggle All"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/key-value.php:135
+msgid "Key"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/key-value.php:136
+msgid "Value"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/map.php:55
+#: premium-files/blocks/inc/custom/inc/fields/osm.php:28
+msgid "No results found"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:27
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:28
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:29
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:30
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:31
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:32
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:33
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:36
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:37
+msgctxt "media"
+msgid "or"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/media.php:38
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/oembed.php:24
+msgid "Embed HTML not available."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/post.php:80
+msgid "Select a post"
+msgstr ""
+
+#. Translators: %s is the taxonomy singular label.
+
+#: premium-files/blocks/inc/custom/inc/fields/post.php:86
+#: premium-files/blocks/inc/custom/inc/fields/taxonomy.php:98
+msgid "Select a %s"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/select-advanced.php:47
+msgid "Select an item"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/select.php:92
+msgid "All"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/sidebar.php:23
+msgid "Select a sidebar"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/taxonomy.php:94
+msgid "Select a term"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/fields/user.php:84
+msgid "Select an user"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/checker.php:134
+msgid "UPDATE UNAVAILABLE! Please enter a valid license key to enable automatic updates."
+msgstr ""
+
+#. Translators: %1$s - URL to the settings page, %2$s - URL to the pricing
+#. page.
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:112
+msgid "You have not set your Meta Box license key yet, which means you are missing out on automatic updates and support! Please <a href=\"%1$s\">enter your license key</a> or <a href=\"%2$s\" target=\"_blank\">get a new one here</a>."
+msgstr ""
+
+#. Translators: %1$s - URL to the settings page, %2$s - URL to the pricing
+#. page.
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:114
+#: premium-files/blocks/inc/custom/inc/update/notification.php:116
+msgid "Your license key for Meta Box is <b>invalid</b>. Please <a href=\"%1$s\">update your license key</a> or <a href=\"%2$s\" target=\"_blank\">get a new one</a> to enable automatic updates."
+msgstr ""
+
+#. Translators: %3$s - URL to the My Account page.
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:118
+msgid "Your license key for Meta Box is <b>expired</b>. Please <a href=\"%3$s\" target=\"_blank\">renew your license</a> to get automatic updates and premium support."
+msgstr ""
+
+#. Translators: %1$s - URL to the settings page, %2$s - URL to the pricing
+#. page.
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:142
+msgid "Please <a href=\"%1$s\">enter your license key</a> or <a href=\"%2$s\" target=\"_blank\">get a new one here</a>."
+msgstr ""
+
+#. Translators: %1$s - URL to the settings page, %2$s - URL to the pricing
+#. page.
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:144
+#: premium-files/blocks/inc/custom/inc/update/notification.php:146
+msgid "Your license key is <b>invalid</b>. Please <a href=\"%1$s\">update your license key</a> or <a href=\"%2$s\" target=\"_blank\">get a new one here</a>."
+msgstr ""
+
+#. Translators: %3$s - URL to the My Account page.
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:148
+msgid "Your license key is <b>expired</b>. Please <a href=\"%3$s\" target=\"_blank\">renew your license</a>."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:171
+msgid "Activate License"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/notification.php:171
+msgid "Update License"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:72
+#: premium-files/blocks/inc/custom/inc/update/settings.php:90
+msgid "Meta Box License"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:72
+msgid "License"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:91
+msgid "Please enter your license key to enable automatic updates for Meta Box extensions."
+msgstr ""
+
+#. Translators: %1$s - URL to the My Account page, %2$s - URL to the pricing
+#. page.
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:96
+msgid "To get the license key, visit the <a href=\"%1$s\" target=\"_blank\">My Account</a> page on metabox.io website. If you have not purchased any extension yet, please <a href=\"%2$s\" target=\"_blank\">get a new license here</a>."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:108
+msgid "License Key"
+msgstr ""
+
+#. Translators: %1$s - URL to the pricing page.
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:113
+#: premium-files/blocks/inc/custom/inc/update/settings.php:115
+msgid "Your license key is <b>invalid</b>. Please update your license key or <a href=\"%1$s\" target=\"_blank\">get a new one here</a>."
+msgstr ""
+
+#. Translators: %2$s - URL to the My Account page.
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:117
+msgid "Your license key is <b>expired</b>. Please <a href=\"%2$s\" target=\"_blank\">renew your license</a>."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:118
+msgid "Your license key is <b>active</b>."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:131
+msgid "Save Changes"
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:157
+msgid "Something wrong with the connection to metabox.io. Please try again later."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:159
+msgid "Your license is activated."
+msgstr ""
+
+#. Translators: %s - URL to the My Account page.
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:162
+msgid "License expired. Please renew on the <a href=\"%s\" target=\"_blank\">My Account</a> page on metabox.io website."
+msgstr ""
+
+#. Translators: %1$s - URL to the My Account page, %2$s - URL to the pricing
+#. page.
+
+#: premium-files/blocks/inc/custom/inc/update/settings.php:168
+msgid "Invalid license. Please <a href=\"%1$s\" target=\"_blank\">check again</a> or <a href=\"%2$s\" target=\"_blank\">get a new license here</a>."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/inc/validation.php:50
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: premium-files/blocks/inc/custom/meta-box.php:11
+msgid "Meta Box requires PHP version 5.3+. Please contact your host to upgrade."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "StreamCast"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/streamcast"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Play iceCast, Shoutcast, Radioco, Radionomy Live stream in Wordpress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "bPlugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://bPlugins.com"
+msgstr ""
